@@ -1,14 +1,38 @@
 {
   "characterId": "player",
-  "characterName": "Player",
-  "lastUpdated": null,
-  "totalMemories": 0,
-  "memories": [],
+  "characterName": "Unnamed",
+  "lastUpdated": "2026-10-28T09:25:00Z",
+  "totalMemories": 1,
+  "memories": [
+    {
+      "id": "mem-001",
+      "type": "background",
+      "importance": "high",
+      "timestamp": "Day 1, late afternoon",
+      "summary": "I am an ordinary adult male goblin in a small nest under the wooded hillside. Grak the Split-Ear is the leader. I have a crude club and little else. The nest is quiet but food is not plentiful.",
+      "details": "No special destiny. No extraordinary strength or magic. Just another goblin trying to survive among stronger, meaner ones.",
+      "people": ["grak-split-ear", "snarl", "grik"],
+      "location": "Nest Main Cavern",
+      "tags": ["origin", "nest", "survival"]
+    }
+  ],
   "memoryIndex": {
-    "byPerson": {},
-    "byTag": {},
-    "byType": {},
-    "byLocation": {},
-    "highImportance": []
+    "byPerson": {
+      "grak-split-ear": ["mem-001"],
+      "snarl": ["mem-001"],
+      "grik": ["mem-001"]
+    },
+    "byTag": {
+      "origin": ["mem-001"],
+      "nest": ["mem-001"],
+      "survival": ["mem-001"]
+    },
+    "byType": {
+      "background": ["mem-001"]
+    },
+    "byLocation": {
+      "Nest Main Cavern": ["mem-001"]
+    },
+    "highImportance": ["mem-001"]
   }
 }

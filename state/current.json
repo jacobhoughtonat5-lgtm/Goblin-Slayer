@@ -1,59 +1,190 @@
 {
   "gameInfo": {
-    "title": "Untitled Persistent Game",
-    "genre": "To be defined",
-    "version": "0.1.0",
+    "title": "Goblin Slayer — Persistent Goblin Sandbox",
+    "genre": "Dark Fantasy / Goblin Survival RPG",
+    "version": "1.0.0",
     "currentTurn": 0,
     "inGameTime": {
       "day": 1,
-      "timeOfDay": "morning",
-      "season": "spring"
+      "timeOfDay": "late afternoon",
+      "season": "late spring",
+      "year": 1
     },
-    "lastUpdated": null,
+    "lastUpdated": "2026-10-28T09:25:00Z",
     "branch": "main",
     "winConditions": [],
-    "lossConditions": []
+    "lossConditions": [
+      "Player character death",
+      "Nest completely destroyed with no survivors or escape"
+    ]
   },
   "player": {
     "id": "player",
-    "name": "Player",
-    "description": "A new arrival with no history yet.",
+    "name": "Unnamed",
+    "description": "An ordinary adult male goblin of average size and strength for his kind. Wiry green skin, sharp yellow eyes, pointed ears, and the typical opportunistic instincts of a goblin. No special abilities, no remarkable equipment, no renown.",
+    "race": "Goblin",
+    "sex": "Male",
+    "age": "Adult",
+    "rank": "Ordinary goblin",
+    "position": "Low-ranking member of the nest",
     "stats": {
-      "health": 100,
-      "maxHealth": 100,
-      "energy": 100,
-      "maxEnergy": 100
+      "health": 18,
+      "maxHealth": 18,
+      "fatigue": 0,
+      "hunger": 2,
+      "notes": "Ordinary goblin vitality. Comparable to a human child in raw strength, but agile and possessed of keen senses of smell and hearing."
     },
-    "inventory": [],
+    "inventory": [
+      {
+        "id": "crude-club",
+        "name": "Crude Club",
+        "description": "A roughly shaped length of hard wood weighted with a knobby end. Barely better than a heavy stick.",
+        "type": "weapon",
+        "condition": "serviceable"
+      },
+      {
+        "id": "tattered-loincloth",
+        "name": "Tattered Loincloth",
+        "description": "A filthy scrap of cloth and leather scraps tied around the waist.",
+        "type": "clothing",
+        "condition": "poor"
+      }
+    ],
     "currency": {
-      "gold": 0
+      "coin": 0,
+      "valuables": []
     },
-    "skills": [],
-    "quests": [],
-    "location": "Starting Location",
-    "relationships": {},
+    "skills": [
+      "Basic scavenging",
+      "Crude melee (club)",
+      "Goblin stealth (instinctive)"
+    ],
+    "knowledge": [
+      "The layout of the home nest",
+      "Basic goblin hierarchy and survival instincts",
+      "That humans and adventurers are extremely dangerous"
+    ],
+    "abilities": [],
+    "injuries": [],
+    "location": "Nest Main Cavern",
+    "relationships": {
+      "grak-split-ear": {
+        "disposition": "fearful respect",
+        "notes": "Nest leader. Stronger and meaner. Best not to draw his attention."
+      }
+    },
     "memoryFile": "memories/player.json"
   },
   "world": {
     "locations": {
-      "Starting Location": {
-        "description": "A placeholder starting place. Replace this with real world data.",
-        "exits": [],
-        "npcs": [],
+      "Nest Main Cavern": {
+        "id": "nest-main-cavern",
+        "name": "Nest Main Cavern",
+        "description": "The central living space of a small goblin nest under a wooded hillside. Damp stone, low ceiling in places, a crude fire pit, scavenged furs and bones, and the constant smell of unwashed goblin bodies and old meat. Dim light filters from the entrance tunnel.",
+        "exits": ["Nest Entrance Tunnel", "Side Sleeping Tunnels", "Storage Nook", "Bolt-Hole Passage"],
+        "npcs": ["grak-split-ear", "snarl", "grik", "various-ordinary-goblins"],
         "items": [],
-        "visited": true
+        "visited": true,
+        "tags": ["nest", "home", "interior"]
+      },
+      "Nest Entrance Tunnel": {
+        "id": "nest-entrance",
+        "name": "Nest Entrance Tunnel",
+        "description": "A sloping, root-choked passage that leads from the main cavern up to a brush-hidden opening on the hillside. Defensible but not fortified.",
+        "exits": ["Nest Main Cavern", "Wooded Hillside"],
+        "npcs": [],
+        "visited": true,
+        "tags": ["nest", "exit"]
+      },
+      "Wooded Hillside": {
+        "id": "wooded-hillside",
+        "name": "Wooded Hillside",
+        "description": "Dense mixed forest covering a low ridge. The nest entrance is well-concealed among roots and undergrowth. Animal trails, the occasional human track, and the distant sound of a stream.",
+        "exits": ["Nest Entrance Tunnel", "Deeper Forest", "Ridge Lookout", "Stream Path"],
+        "npcs": [],
+        "visited": false,
+        "tags": ["wilderness", "forest"]
+      },
+      "Ridge Lookout": {
+        "id": "ridge-lookout",
+        "name": "Ridge Lookout",
+        "description": "A rocky outcrop above the nest that offers a partial view of the surrounding woods and a distant smoke trail that might be a farmstead or small settlement.",
+        "exits": ["Wooded Hillside"],
+        "npcs": [],
+        "visited": false,
+        "tags": ["wilderness", "vantage"]
       }
     },
-    "activeNpcs": [],
-    "items": {},
-    "globalFlags": {},
+    "activeNpcs": [
+      "grak-split-ear",
+      "snarl",
+      "grik"
+    ],
+    "tribe": {
+      "name": "Unnamed Nest",
+      "leader": "grak-split-ear",
+      "population": {
+        "total": 23,
+        "adultMales": 9,
+        "adultFemales": 7,
+        "young": 5,
+        "injuredOrWeak": 2
+      },
+      "resources": {
+        "food": "low (a few days of scavenged meat and grain)",
+        "weapons": "crude clubs, a few scavenged knives and broken spears",
+        "armor": "almost none",
+        "tools": "minimal scavenged human scraps",
+        "treasure": "negligible"
+      },
+      "morale": "uneasy but not desperate",
+      "territory": "Small cave network under a wooded hillside in a remote frontier region"
+    },
+    "globalFlags": {
+      "campaignStarted": true,
+      "playerNamed": false,
+      "nestAwareOfPlayerActions": false
+    },
     "eventsLog": [
-      "Game initialized. No events yet."
+      "Campaign initialized. Ordinary adult male goblin begins in a small frontier nest under Grak the Split-Ear."
     ]
   },
-  "characters": {},
-  "flags": {},
+  "characters": {
+    "grak-split-ear": {
+      "id": "grak-split-ear",
+      "name": "Grak the Split-Ear",
+      "description": "Scarred older male goblin, larger and heavier than average. One ear is torn nearly in half. Rules the nest through strength and casual violence.",
+      "memoryFile": "memories/grak-split-ear.json",
+      "currentLocation": "Nest Main Cavern",
+      "status": "alive",
+      "relationshipToPlayer": 0,
+      "role": "Nest Leader"
+    },
+    "snarl": {
+      "id": "snarl",
+      "name": "Snarl",
+      "description": "One of Grak's favored warriors. Lean, mean, and quick with a scavenged spear.",
+      "memoryFile": "memories/snarl.json",
+      "currentLocation": "Nest Main Cavern",
+      "status": "alive",
+      "relationshipToPlayer": 0,
+      "role": "Warrior"
+    },
+    "grik": {
+      "id": "grik",
+      "name": "Grik",
+      "description": "Another of the stronger males who hangs near Grak. Broad-shouldered for a goblin and fond of bullying weaker nest-mates.",
+      "memoryFile": "memories/grik.json",
+      "currentLocation": "Nest Main Cavern",
+      "status": "alive",
+      "relationshipToPlayer": 0,
+      "role": "Warrior"
+    }
+  },
+  "flags": {
+    "playerHasActed": false
+  },
   "history": [
-    "Turn 0: Game created. Ready for first play session."
+    "Turn 0: New Goblin Slayer campaign initialized. Player begins as an ordinary adult male goblin in a small, unremarkable frontier nest led by Grak the Split-Ear."
   ]
 }

@@ -1,0 +1,35 @@
+{
+  "characterId": "snarl",
+  "characterName": "Snarl",
+  "lastUpdated": "2026-10-28T09:25:00Z",
+  "totalMemories": 1,
+  "memories": [
+    {
+      "id": "snarl-mem-001",
+      "type": "ongoing",
+      "importance": "low",
+      "timestamp": "Day 1",
+      "summary": "Stay close to Grak. Keep the weak ones in line. Looking forward to the next chance to take something from humans or weaker goblins.",
+      "details": "Loyal enough to Grak as long as the leader remains strong. Pays little attention to ordinary low-rank males unless they get in the way.",
+      "people": ["grak-split-ear"],
+      "location": "Nest Main Cavern",
+      "tags": ["loyalty", "violence"]
+    }
+  ],
+  "memoryIndex": {
+    "byPerson": {
+      "grak-split-ear": ["snarl-mem-001"]
+    },
+    "byTag": {
+      "loyalty": ["snarl-mem-001"],
+      "violence": ["snarl-mem-001"]
+    },
+    "byType": {
+      "ongoing": ["snarl-mem-001"]
+    },
+    "byLocation": {
+      "Nest Main Cavern": ["snarl-mem-001"]
+    },
+    "highImportance": []
+  }
+}

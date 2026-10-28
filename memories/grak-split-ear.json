@@ -1,0 +1,34 @@
+{
+  "characterId": "grak-split-ear",
+  "characterName": "Grak the Split-Ear",
+  "lastUpdated": "2026-10-28T09:25:00Z",
+  "totalMemories": 1,
+  "memories": [
+    {
+      "id": "grak-mem-001",
+      "type": "ongoing",
+      "importance": "medium",
+      "timestamp": "Day 1",
+      "summary": "I lead this nest. The weaker ones know their place. Food is getting low. Someone will need to raid or hunt soon, or there will be trouble.",
+      "details": "Keeps a close eye on the stronger males. Does not yet have any particular notice of the ordinary low-ranking male who has not yet done anything noteworthy.",
+      "people": [],
+      "location": "Nest Main Cavern",
+      "tags": ["leadership", "food", "hierarchy"]
+    }
+  ],
+  "memoryIndex": {
+    "byPerson": {},
+    "byTag": {
+      "leadership": ["grak-mem-001"],
+      "food": ["grak-mem-001"],
+      "hierarchy": ["grak-mem-001"]
+    },
+    "byType": {
+      "ongoing": ["grak-mem-001"]
+    },
+    "byLocation": {
+      "Nest Main Cavern": ["grak-mem-001"]
+    },
+    "highImportance": []
+  }
+}

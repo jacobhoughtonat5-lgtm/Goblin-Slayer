@@ -1,11 +1,50 @@
 {
-  "_comment": "Detailed location data. The live 'current location' and visited flags also live in state/current.json.",
-  "Starting Location": {
-    "id": "Starting Location",
-    "name": "Starting Location",
-    "description": "A blank starting place waiting to be replaced with your actual world.",
-    "exits": {},
-    "tags": ["start"],
-    "notableFeatures": []
+  "_comment": "Detailed location data for the Goblin Slayer campaign. Live current location and visited flags also live in state/current.json.",
+  "Nest Main Cavern": {
+    "id": "nest-main-cavern",
+    "name": "Nest Main Cavern",
+    "description": "The central living space of a small goblin nest under a wooded hillside. Damp stone, low ceiling in places, a crude fire pit, scavenged furs and bones, and the constant smell of unwashed goblin bodies and old meat. Dim light filters from the entrance tunnel.",
+    "exits": {
+      "Nest Entrance Tunnel": "up the sloping passage",
+      "Side Sleeping Tunnels": "deeper into the hill",
+      "Storage Nook": "a side alcove",
+      "Bolt-Hole Passage": "a narrow rear tunnel"
+    },
+    "tags": ["nest", "home", "interior", "goblin"],
+    "notableFeatures": ["crude fire pit", "leader's sitting rock", "scavenged gear pile"]
+  },
+  "Nest Entrance Tunnel": {
+    "id": "nest-entrance",
+    "name": "Nest Entrance Tunnel",
+    "description": "A sloping, root-choked passage that leads from the main cavern up to a brush-hidden opening on the hillside. Defensible but not fortified.",
+    "exits": {
+      "Nest Main Cavern": "down into the nest",
+      "Wooded Hillside": "out into the forest"
+    },
+    "tags": ["nest", "exit", "tunnel"],
+    "notableFeatures": ["root curtain", "narrow choke point"]
+  },
+  "Wooded Hillside": {
+    "id": "wooded-hillside",
+    "name": "Wooded Hillside",
+    "description": "Dense mixed forest covering a low ridge. The nest entrance is well-concealed among roots and undergrowth. Animal trails, the occasional human track, and the distant sound of a stream.",
+    "exits": {
+      "Nest Entrance Tunnel": "into the hidden cave mouth",
+      "Deeper Forest": "further into the trees",
+      "Ridge Lookout": "up the slope",
+      "Stream Path": "down toward the water"
+    },
+    "tags": ["wilderness", "forest", "frontier"],
+    "notableFeatures": ["concealed nest entrance", "animal trails"]
+  },
+  "Ridge Lookout": {
+    "id": "ridge-lookout",
+    "name": "Ridge Lookout",
+    "description": "A rocky outcrop above the nest that offers a partial view of the surrounding woods and a distant smoke trail that might be a farmstead or small settlement.",
+    "exits": {
+      "Wooded Hillside": "back down the slope"
+    },
+    "tags": ["wilderness", "vantage", "forest"],
+    "notableFeatures": ["partial view of distant smoke", "rocky cover"]
   }
 }

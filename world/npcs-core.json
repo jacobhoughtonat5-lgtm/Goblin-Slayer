@@ -1,12 +1,30 @@
 {
-  "_comment": "Lightweight definitions for all NPCs. Full personal memories live in memories/<id>.json once the character has interacted enough to need them.",
-  "example-npc": {
-    "id": "example-npc",
-    "name": "Example NPC",
-    "description": "A placeholder character. Delete or replace when you create real NPCs.",
-    "personality": ["curious", "cautious"],
-    "occupation": "Unknown",
-    "currentGoal": "None yet",
-    "defaultDisposition": "neutral"
+  "_comment": "Core NPC definitions for the Goblin Slayer campaign. Full personal memories live in memories/<id>.json.",
+  "grak-split-ear": {
+    "id": "grak-split-ear",
+    "name": "Grak the Split-Ear",
+    "description": "Scarred older male goblin, larger and heavier than average. One ear is torn nearly in half. Rules through strength and the fear it creates.",
+    "personality": ["domineering", "pragmatic", "violent", "suspicious"],
+    "occupation": "Nest Leader",
+    "currentGoal": "Keep the nest fed and himself on top",
+    "defaultDisposition": "indifferent to weaklings, hostile to challenges"
+  },
+  "snarl": {
+    "id": "snarl",
+    "name": "Snarl",
+    "description": "Lean, mean warrior who stays close to Grak. Favors a scavenged spear.",
+    "personality": ["loyal (to strength)", "aggressive", "opportunistic"],
+    "occupation": "Warrior",
+    "currentGoal": "Stay in Grak's favor and take what he can",
+    "defaultDisposition": "contemptuous of the weak"
+  },
+  "grik": {
+    "id": "grik",
+    "name": "Grik",
+    "description": "Broad-shouldered for a goblin. Enjoys the privileges of being one of the leader's favored and the chance to bully others.",
+    "personality": ["bullying", "status-conscious", "short-tempered"],
+    "occupation": "Warrior",
+    "currentGoal": "Maintain his place near the top of the hierarchy",
+    "defaultDisposition": "hostile to those who show weakness or defiance"
   }
 }

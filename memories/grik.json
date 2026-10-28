@@ -1,0 +1,35 @@
+{
+  "characterId": "grik",
+  "characterName": "Grik",
+  "lastUpdated": "2026-10-28T09:25:00Z",
+  "totalMemories": 1,
+  "memories": [
+    {
+      "id": "grik-mem-001",
+      "type": "ongoing",
+      "importance": "low",
+      "timestamp": "Day 1",
+      "summary": "Grak is strong. I am strong enough to stay near him. The little ones should stay out of my way.",
+      "details": "Enjoys the privilege that comes with being one of the leader's favored. Has no particular interest in any specific low-ranking goblin yet.",
+      "people": ["grak-split-ear"],
+      "location": "Nest Main Cavern",
+      "tags": ["hierarchy", "bullying"]
+    }
+  ],
+  "memoryIndex": {
+    "byPerson": {
+      "grak-split-ear": ["grik-mem-001"]
+    },
+    "byTag": {
+      "hierarchy": ["grik-mem-001"],
+      "bullying": ["grik-mem-001"]
+    },
+    "byType": {
+      "ongoing": ["grik-mem-001"]
+    },
+    "byLocation": {
+      "Nest Main Cavern": ["grik-mem-001"]
+    },
+    "highImportance": []
+  }
+}

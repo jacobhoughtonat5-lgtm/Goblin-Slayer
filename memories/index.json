@@ -1,7 +1,10 @@
 {
   "charactersWithMemories": [
-    "player"
+    "player",
+    "grak-split-ear",
+    "snarl",
+    "grik"
   ],
-  "lastUpdated": null,
-  "notes": "Only characters that have accumulated meaningful memories appear here. New NPCs receive a memory file the first time they need one."
+  "lastUpdated": "2026-10-28T09:25:00Z",
+  "notes": "Campaign initialized. Core nest figures given memory files. New NPCs receive files on first meaningful interaction."
 }
