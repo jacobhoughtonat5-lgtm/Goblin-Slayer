@@ -1,0 +1,73 @@
+{
+  "_comment": "This is a REFERENCE EXAMPLE only. Real NPC memory files are named <npc-id>.json and do not have this prefix. Delete this file once you understand the format.",
+  "characterId": "example-npc",
+  "characterName": "Example NPC",
+  "lastUpdated": "2026-10-28T18:00:00+11:00",
+  "totalMemories": 2,
+  "memories": [
+    {
+      "id": "mem_example_001",
+      "type": "conversation",
+      "timestamp": "Day 1, morning",
+      "turn": 3,
+      "summary": "Player introduced themselves and asked about the road ahead",
+      "participants": ["player", "example-npc"],
+      "location": "Starting Location",
+      "content": {
+        "keyStatements": [
+          "Player said their name was Alex",
+          "Player asked if the northern road was safe"
+        ],
+        "emotionalTone": "polite, slightly wary",
+        "promisesOrThreats": [],
+        "secretsShared": []
+      },
+      "personalInterpretation": "A newcomer asking sensible questions. Seems cautious rather than reckless.",
+      "emotionalImpact": "mild curiosity",
+      "importance": 4,
+      "tags": ["introduction", "player", "road"],
+      "knowledgeGained": ["Player's name is Alex", "Player is concerned about road safety"],
+      "relationshipEffect": { "player": 1 },
+      "decay": null
+    },
+    {
+      "id": "mem_example_002",
+      "type": "event",
+      "timestamp": "Day 1, afternoon",
+      "turn": 8,
+      "summary": "Watched the player help a child retrieve a lost toy from a tree",
+      "participants": ["player", "child", "example-npc"],
+      "location": "Starting Location",
+      "content": {
+        "keyStatements": [],
+        "emotionalTone": "approving",
+        "promisesOrThreats": []
+      },
+      "personalInterpretation": "This stranger went out of their way to help a child. That says something good about them.",
+      "emotionalImpact": "warmth, increased trust",
+      "importance": 6,
+      "tags": ["kindness", "player", "observation"],
+      "knowledgeGained": ["Player is willing to help strangers and children"],
+      "relationshipEffect": { "player": 2 },
+      "decay": null
+    }
+  ],
+  "memoryIndex": {
+    "byPerson": {
+      "player": ["mem_example_001", "mem_example_002"]
+    },
+    "byTag": {
+      "introduction": ["mem_example_001"],
+      "player": ["mem_example_001", "mem_example_002"],
+      "kindness": ["mem_example_002"]
+    },
+    "byType": {
+      "conversation": ["mem_example_001"],
+      "event": ["mem_example_002"]
+    },
+    "byLocation": {
+      "Starting Location": ["mem_example_001", "mem_example_002"]
+    },
+    "highImportance": ["mem_example_002"]
+  }
+}

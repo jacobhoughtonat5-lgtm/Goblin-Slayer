@@ -1,0 +1,73 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Game State",
+  "type": "object",
+  "required": ["gameInfo", "player", "world", "characters"],
+  "properties": {
+    "gameInfo": {
+      "type": "object",
+      "required": ["title", "currentTurn"],
+      "properties": {
+        "title": { "type": "string" },
+        "genre": { "type": "string" },
+        "version": { "type": "string" },
+        "currentTurn": { "type": "integer", "minimum": 0 },
+        "inGameTime": { "type": "object" },
+        "lastUpdated": { "type": ["string", "null"] },
+        "branch": { "type": "string" },
+        "winConditions": { "type": "array" },
+        "lossConditions": { "type": "array" }
+      }
+    },
+    "player": {
+      "type": "object",
+      "required": ["id", "name", "location", "memoryFile"],
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "description": { "type": "string" },
+        "stats": { "type": "object" },
+        "inventory": { "type": "array" },
+        "currency": { "type": "object" },
+        "skills": { "type": "array" },
+        "quests": { "type": "array" },
+        "location": { "type": "string" },
+        "relationships": { "type": "object" },
+        "memoryFile": { "type": "string" }
+      }
+    },
+    "world": {
+      "type": "object",
+      "properties": {
+        "locations": { "type": "object" },
+        "activeNpcs": { "type": "array" },
+        "items": { "type": "object" },
+        "globalFlags": { "type": "object" },
+        "eventsLog": { "type": "array" }
+      }
+    },
+    "characters": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "memoryFile": { "type": "string" },
+          "currentLocation": { "type": "string" },
+          "status": { "type": "string" },
+          "relationshipToPlayer": { "type": "number" },
+          "salientMemories": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        }
+      }
+    },
+    "flags": { "type": "object" },
+    "history": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}

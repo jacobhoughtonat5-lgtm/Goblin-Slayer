@@ -1,0 +1,59 @@
+{
+  "gameInfo": {
+    "title": "Untitled Persistent Game",
+    "genre": "To be defined",
+    "version": "0.1.0",
+    "currentTurn": 0,
+    "inGameTime": {
+      "day": 1,
+      "timeOfDay": "morning",
+      "season": "spring"
+    },
+    "lastUpdated": null,
+    "branch": "main",
+    "winConditions": [],
+    "lossConditions": []
+  },
+  "player": {
+    "id": "player",
+    "name": "Player",
+    "description": "A new arrival with no history yet.",
+    "stats": {
+      "health": 100,
+      "maxHealth": 100,
+      "energy": 100,
+      "maxEnergy": 100
+    },
+    "inventory": [],
+    "currency": {
+      "gold": 0
+    },
+    "skills": [],
+    "quests": [],
+    "location": "Starting Location",
+    "relationships": {},
+    "memoryFile": "memories/player.json"
+  },
+  "world": {
+    "locations": {
+      "Starting Location": {
+        "description": "A placeholder starting place. Replace this with real world data.",
+        "exits": [],
+        "npcs": [],
+        "items": [],
+        "visited": true
+      }
+    },
+    "activeNpcs": [],
+    "items": {},
+    "globalFlags": {},
+    "eventsLog": [
+      "Game initialized. No events yet."
+    ]
+  },
+  "characters": {},
+  "flags": {},
+  "history": [
+    "Turn 0: Game created. Ready for first play session."
+  ]
+}

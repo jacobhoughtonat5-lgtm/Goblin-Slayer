@@ -1,0 +1,12 @@
+{
+  "_comment": "Lightweight definitions for all NPCs. Full personal memories live in memories/<id>.json once the character has interacted enough to need them.",
+  "example-npc": {
+    "id": "example-npc",
+    "name": "Example NPC",
+    "description": "A placeholder character. Delete or replace when you create real NPCs.",
+    "personality": ["curious", "cautious"],
+    "occupation": "Unknown",
+    "currentGoal": "None yet",
+    "defaultDisposition": "neutral"
+  }
+}

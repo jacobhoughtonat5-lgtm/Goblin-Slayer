@@ -1,0 +1,10 @@
+{
+  "_comment": "Global or unique items that are not currently in any inventory.",
+  "example-item": {
+    "id": "example-item",
+    "name": "Example Item",
+    "description": "A placeholder. Replace with real items.",
+    "type": "misc",
+    "effects": []
+  }
+}

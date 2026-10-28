@@ -1,0 +1,11 @@
+{
+  "_comment": "Detailed location data. The live 'current location' and visited flags also live in state/current.json.",
+  "Starting Location": {
+    "id": "Starting Location",
+    "name": "Starting Location",
+    "description": "A blank starting place waiting to be replaced with your actual world.",
+    "exits": {},
+    "tags": ["start"],
+    "notableFeatures": []
+  }
+}

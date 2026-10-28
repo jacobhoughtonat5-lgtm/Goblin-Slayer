@@ -1,0 +1,14 @@
+{
+  "characterId": "player",
+  "characterName": "Player",
+  "lastUpdated": null,
+  "totalMemories": 0,
+  "memories": [],
+  "memoryIndex": {
+    "byPerson": {},
+    "byTag": {},
+    "byType": {},
+    "byLocation": {},
+    "highImportance": []
+  }
+}
