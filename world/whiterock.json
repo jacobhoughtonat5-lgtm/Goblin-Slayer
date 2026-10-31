@@ -1,17 +1,17 @@
 {
   "name": "Whiterock",
   "upperResidence": {
-    "location": "Highest shelf plateau (approx 70m x 55m)",
-    "status": "Occupied private home",
-    "occupants": ["Azra", "Elena"],
-    "features": [
-      "Enclosed cave with barrable timber-and-hide door",
-      "Large bed now covered with wolf-variant and bear-variant pelt blankets",
-      "Elena's cooking pots, herbs, salves, linen, keepsakes, and gardening tools moved in",
-      "Private fire pit and water seep",
-      "Storage alcoves in use"
+    "status": "Fully improved private home",
+    "recentAdditions": [
+      "Proper very comfortable wooden bedframe with pelts",
+      "Shelves with doors for herbs, salves, and coin",
+      "Larger table and two real chairs",
+      "Raised garden plots on plateau with protective fence",
+      "Stone oven near fire pit for bread",
+      "Washing basin (separate from seep) and additional linen",
+      "Strong gate at the bottom of the access track"
     ],
-    "notes": "Elena has fully relocated from the isolated frontier house. The old house is emptied of useful goods. Upper residence is now their shared home."
-  },
-  "lastUpdated": "2026-10-31T07:28:00Z"
+    "notes": "All items from Elena's list completed over six days of work by Azra. Residence is now significantly more comfortable and secure.",
+    "lastUpdated": "2026-10-31T07:31:00Z"
+  }
 }
