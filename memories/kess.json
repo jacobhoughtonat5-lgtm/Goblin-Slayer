@@ -1,0 +1,15 @@
+{
+  "characterId": "kess",
+  "characterName": "Kess",
+  "lastUpdated": "2026-11-01T01:26:00Z",
+  "appearance": "Ordinary male goblin, lean hunter's build. Competent and cautious. Carries a short spear. Fresh rabbit often at his belt when hunting.",
+  "traits": [
+    "Skilled solo hunter",
+    "Cautious and observant",
+    "Accepts rules when they are clear and beneficial",
+    "Values steady food and safety over chaos"
+  ],
+  "role": "Hunter for Whiterock. Permanent resident.",
+  "status": "Joined after being recruited by Azra. Agreed to all rules regarding women and breeding. Assigned living space by Rusk.",
+  "joined": "Day of recruitment, shown around by Rusk."
+}

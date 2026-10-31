@@ -1,18 +1,8 @@
 {
   "name": "Whiterock",
-  "holdingCells": {
-    "number": 5,
-    "location": "Lower den, separate from main living caves and upper residence",
-    "features": [
-      "Individual cells",
-      "Very secure: heavy timber doors with bars, stone-reinforced walls, minimal windows",
-      "Basic bedding, water access, and waste provision in each",
-      "Single controlled entrance"
-    ],
-    "access": "Only Azra and one designated goblin caretaker",
-    "purpose": "Holding adult women (criminals/bandits) for controlled breeding under Azra's rules",
-    "completed": "Two days of work",
-    "lastUpdated": "2026-11-01T00:22:00Z"
+  "populationUpdate": {
+    "newResident": "Kess (hunter)",
+    "notes": "Rusk assigned him a sleeping place in the main cave area. Permanent."
   },
-  "notes": "Elena informed and accepts provided rules of protection and adult-only are followed."
+  "lastUpdated": "2026-11-01T01:26:00Z"
 }
