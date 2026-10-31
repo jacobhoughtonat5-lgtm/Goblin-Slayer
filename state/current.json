@@ -1,99 +1,45 @@
 {
   "gameInfo": {
     "title": "Goblin Slayer — Persistent Goblin Sandbox",
-    "version": "1.4.1",
-    "currentTurn": 72,
+    "version": "1.4.2",
+    "currentTurn": 73,
     "inGameTime": {
       "day": 106,
-      "timeOfDay": "evening",
+      "timeOfDay": "afternoon",
       "season": "summer",
       "year": 1
     },
-    "lastUpdated": "2026-10-31T05:06:00Z"
+    "lastUpdated": "2026-10-31T05:11:00Z"
   },
   "player": {
     "id": "player",
-    "description": "Athletic hobgoblin variant (wolf- and bear-touched), no tusks. Returned from cleared den with new weapons and supplies.",
+    "description": "Athletic hobgoblin variant (wolf- and bear-touched), no tusks. Taller than human male, long powerful limbs, dense muscle.",
     "race": "Hobgoblin variant (wolf- and bear-touched)",
+    "physiology": {
+      "baseForm": "Athletic hobgoblin variant, no tusks, sharper face",
+      "wolfTraits": ["Enhanced senses", "coarser forearm/shoulder hair"],
+      "bearTraits": ["Dense muscle", "tougher skin", "claw-like nails", "high endurance"],
+      "hobgoblinTraits": ["Hobgoblin height and reach", "athletic proportions"],
+      "genitalia": {
+        "penis": "11 inches when erect, thick, heavy, broad head, subtly ridged and veined, proportional to the larger athletic frame",
+        "balls": "Large, heavy, hanging low",
+        "notes": "Fully proportional to new hobgoblin-scale body. Elena has seen it."
+      },
+      "combinedNotes": "All traits integrated. Elena is adjusting to the size and new proportions."
+    },
     "stats": {
       "health": 40,
-      "maxHealth": 40,
-      "fatigue": 2,
-      "hunger": 0
+      "maxHealth": 40
     },
-    "inventory": [
-      {
-        "id": "bear-bone-knives",
-        "name": "Pair of Bear-Bone Knives",
-        "type": "weapon",
-        "condition": "sharp"
-      },
-      {
-        "id": "hand-axe",
-        "name": "Sharpened Hand Axe",
-        "type": "weapon",
-        "condition": "sharp"
-      },
-      {
-        "id": "broad-cleaver",
-        "name": "Hobgoblin Broad Cleaver",
-        "description": "Thick-spined cleaver taken from the hobgoblin leader. Sharpened and maintained.",
-        "type": "weapon",
-        "condition": "sharp"
-      },
-      {
-        "id": "human-short-sword",
-        "name": "Human Short Sword",
-        "description": "Well-made trophy short sword. Sharpened and maintained.",
-        "type": "weapon",
-        "condition": "sharp"
-      },
-      {
-        "id": "hunting-bow",
-        "name": "Hunting Bow",
-        "type": "weapon",
-        "condition": "good"
-      },
-      {
-        "id": "quiver-arrows",
-        "name": "Quiver with 12 Arrows",
-        "type": "ammunition",
-        "quantity": 12
-      },
-      {
-        "id": "leather-satchel",
-        "name": "Patched Leather Satchel",
-        "contents": [
-          "flint-and-tinder",
-          "hide-rope",
-          "waterskin",
-          "whetstone",
-          "human coins (copper and silver)",
-          "jewelry and trinkets (rings, silver pendant, glass beads)"
-        ]
-      },
-      {
-        "id": "bagged-food",
-        "name": "Bag of Safe Food",
-        "description": "Substantial dried/smoked meat, nuts, and roots from the den. Given to Elena for the house.",
-        "type": "provisions",
-        "status": "delivered to house"
-      }
-    ],
     "location": "Isolated Frontier House",
     "relationships": {
       "elena": {
         "disposition": "deeply intertwined dependence and closeness",
-        "notes": "Has now seen the hobgoblin transformation. Received large food stores."
+        "notes": "Has seen full new body including genitalia. Adjusting to size difference."
       }
     }
   },
   "flags": {
-    "denLootSecured": true,
-    "elenaSeenNewForm": true
-  },
-  "history": [
-    "Cleared den, transformed, looted cleaver, short sword, food, coins and trinkets.",
-    "Returned home, gave food to Elena, saved new equipment."
-  ]
+    "penisDescriptionSaved": true
+  }
 }
