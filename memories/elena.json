@@ -1,50 +1,43 @@
 {
   "characterId": "elena",
   "characterName": "Elena",
-  "lastUpdated": "2026-10-31T02:31:00Z",
-  "totalMemories": 5,
+  "lastUpdated": "2026-10-31T05:36:00Z",
+  "totalMemories": 8,
   "memories": [
     {
-      "id": "elena-001",
-      "type": "trauma",
+      "id": "elena-evolution-shock",
+      "type": "event",
       "importance": "high",
-      "summary": "House invaded at night. Male partner killed and burned. Taken captive by the goblin.",
-      "tags": ["capture", "loss"]
+      "summary": "Player returned from the north transformed into an athletic hobgoblin variant: much taller, broader, sharper-faced, no tusks, denser and stronger. Initial shock and fear of the size, followed by recognition that it was still him because of eyes, scent, and behavior. He brought large amounts of food.",
+      "tags": ["evolution", "shock", "return"]
     },
     {
-      "id": "elena-conditioning",
-      "type": "ongoing",
+      "id": "elena-intimacy-new-body",
+      "type": "intimacy",
       "importance": "high",
-      "summary": "Months of restraint, sexual use, edging, care, and isolation. Resistance hollowed into passive acceptance. Automatic arousal responses to the goblin.",
-      "tags": ["dependence", "conditioning"]
+      "summary": "First full experience with the new body. Overwhelmed by the size, depth, weight, and endurance during a six-hour session. Legs unusable afterward. Mixed fear and intense physical pleasure. Explicitly confirmed she enjoyed it greatly despite the soreness.",
+      "tags": ["sex", "new-body", "overwhelm"]
     },
     {
-      "id": "elena-language",
-      "type": "interaction",
-      "importance": "medium",
-      "summary": "Teaching basic common tongue over weeks. Conversations remain simple and practical.",
-      "tags": ["teaching", "language"]
+      "id": "elena-aftercare-days",
+      "type": "relationship",
+      "importance": "high",
+      "summary": "Four days of continuous caretaking while she recovered. He carried her, fed her, massaged her, stayed close, and did not leave. This markedly deepened trust and attachment. She began reaching for him habitually and stated she likes living with him and does not want him to stop coming back.",
+      "tags": ["aftercare", "trust", "dependence", "closeness"]
     },
     {
-      "id": "elena-name",
-      "type": "personal",
-      "importance": "medium",
-      "summary": "Revealed her name as Elena when asked.",
-      "tags": ["identity", "name"]
-    },
-    {
-      "id": "elena-current",
+      "id": "elena-current-feelings",
       "type": "status",
       "importance": "medium",
-      "summary": "Cooks, maintains house tasks, follows on walks, accepts sexual contact without active refusal. Residual shame present but dulled. No escape attempts. Slim build, dark brown hair, D-cup breasts.",
-      "tags": ["daily", "acceptance", "appearance"]
+      "summary": "Adjusting to the new size in the small house. Still carries residual memory of the original capture, but daily life, protection, intimacy, and consistent return have made the bond feel mutual and preferable to any alternative. She startles less at his frame and actively seeks proximity.",
+      "tags": ["adjustment", "feelings", "daily"]
     }
   ],
   "memoryIndex": {
     "byTag": {
-      "dependence": ["elena-conditioning"],
-      "name": ["elena-name"],
-      "acceptance": ["elena-current"]
+      "evolution": ["elena-evolution-shock"],
+      "aftercare": ["elena-aftercare-days"],
+      "closeness": ["elena-aftercare-days", "elena-current-feelings"]
     }
   }
 }
