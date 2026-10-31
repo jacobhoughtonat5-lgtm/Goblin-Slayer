@@ -1,17 +1,12 @@
 {
   "name": "Whiterock",
-  "upperResidence": {
-    "status": "Fully improved private home",
-    "recentAdditions": [
-      "Proper very comfortable wooden bedframe with pelts",
-      "Shelves with doors for herbs, salves, and coin",
-      "Larger table and two real chairs",
-      "Raised garden plots on plateau with protective fence",
-      "Stone oven near fire pit for bread",
-      "Washing basin (separate from seep) and additional linen",
-      "Strong gate at the bottom of the access track"
-    ],
-    "notes": "All items from Elena's list completed over six days of work by Azra. Residence is now significantly more comfortable and secure.",
-    "lastUpdated": "2026-10-31T07:31:00Z"
-  }
+  "newFacilities": {
+    "storehouse": "Raised, dry timber storehouse for meat and grain",
+    "secondSmokehouse": "Additional smokehouse for increased capacity",
+    "latrine": "Latrine trench located away from the spring",
+    "animalShelter": "Covered shelter attached to the pens for goats/pigs",
+    "completed": "Two weeks of work by Azra, Rusk, Vek, Tor, and Sip",
+    "lastUpdated": "2026-10-31T07:36:00Z"
+  },
+  "notes": "Core list from Rusk and Vek partially completed. Weapons, tools, and meeting ground still pending. Upper residence unchanged."
 }
