@@ -1,0 +1,50 @@
+{
+  "characterId": "elena",
+  "characterName": "Elena",
+  "lastUpdated": "2026-10-31T02:31:00Z",
+  "totalMemories": 5,
+  "memories": [
+    {
+      "id": "elena-001",
+      "type": "trauma",
+      "importance": "high",
+      "summary": "House invaded at night. Male partner killed and burned. Taken captive by the goblin.",
+      "tags": ["capture", "loss"]
+    },
+    {
+      "id": "elena-conditioning",
+      "type": "ongoing",
+      "importance": "high",
+      "summary": "Months of restraint, sexual use, edging, care, and isolation. Resistance hollowed into passive acceptance. Automatic arousal responses to the goblin.",
+      "tags": ["dependence", "conditioning"]
+    },
+    {
+      "id": "elena-language",
+      "type": "interaction",
+      "importance": "medium",
+      "summary": "Teaching basic common tongue over weeks. Conversations remain simple and practical.",
+      "tags": ["teaching", "language"]
+    },
+    {
+      "id": "elena-name",
+      "type": "personal",
+      "importance": "medium",
+      "summary": "Revealed her name as Elena when asked.",
+      "tags": ["identity", "name"]
+    },
+    {
+      "id": "elena-current",
+      "type": "status",
+      "importance": "medium",
+      "summary": "Cooks, maintains house tasks, follows on walks, accepts sexual contact without active refusal. Residual shame present but dulled. No escape attempts. Slim build, dark brown hair, D-cup breasts.",
+      "tags": ["daily", "acceptance", "appearance"]
+    }
+  ],
+  "memoryIndex": {
+    "byTag": {
+      "dependence": ["elena-conditioning"],
+      "name": ["elena-name"],
+      "acceptance": ["elena-current"]
+    }
+  }
+}

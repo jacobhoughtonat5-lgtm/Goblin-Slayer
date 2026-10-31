@@ -2,15 +2,15 @@
   "gameInfo": {
     "title": "Goblin Slayer — Persistent Goblin Sandbox",
     "genre": "Dark Fantasy / Goblin Survival RPG",
-    "version": "1.1.0",
-    "currentTurn": 45,
+    "version": "1.1.1",
+    "currentTurn": 46,
     "inGameTime": {
       "day": 90,
       "timeOfDay": "evening",
       "season": "summer",
       "year": 1
     },
-    "lastUpdated": "2026-10-31T02:25:00Z",
+    "lastUpdated": "2026-10-31T02:31:00Z",
     "branch": "main",
     "winConditions": [],
     "lossConditions": [
@@ -26,7 +26,7 @@
     "sex": "Male",
     "age": "Adult",
     "rank": "Conditioned ordinary goblin",
-    "position": "Occupant of isolated frontier house with captive",
+    "position": "Occupant of isolated frontier house with captive Elena",
     "stats": {
       "health": 22,
       "maxHealth": 22,
@@ -72,15 +72,15 @@
       "Layout of original nest",
       "Isolated house and surrounding woods",
       "Basic common tongue vocabulary and simple grammar",
-      "Captive woman's routines and responses"
+      "Elena's routines, responses, and name"
     ],
     "abilities": [],
     "injuries": [],
     "location": "Isolated Frontier House",
     "relationships": {
-      "captive-woman": {
+      "elena": {
         "disposition": "deepened dependence / passive acceptance",
-        "notes": "Months of captivity, care, sex, and language exchange. She shows automatic arousal responses, cooks, follows, and accepts use without active resistance. Residual shame present but dulled. No full affection."
+        "notes": "Months of captivity, care, sex, and language exchange. Automatic arousal responses, cooks, follows, accepts use without active resistance. Residual shame dulled. Name learned: Elena."
       }
     },
     "memoryFile": "memories/player.json"
@@ -92,13 +92,13 @@
         "name": "Isolated Frontier House",
         "description": "Small timber house with thatched roof in a forest clearing. Lived-in after months of occupation. Hearth, rough table, bed, storage. Cold ash of burned body remains at clearing edge.",
         "exits": ["Surrounding Woods", "Clearing"],
-        "npcs": ["captive-woman"],
+        "npcs": ["elena"],
         "visited": true,
         "tags": ["house", "frontier", "occupied"]
       }
     },
     "activeNpcs": [
-      "captive-woman"
+      "elena"
     ],
     "tribe": {
       "name": "Original Nest (left behind)",
@@ -108,20 +108,29 @@
       "campaignStarted": true,
       "playerNamed": false,
       "houseOccupied": true,
-      "commonTongueBasic": true
+      "commonTongueBasic": true,
+      "captiveNamed": true
     },
     "eventsLog": [
       "Player left nest, hunted, reached isolated house, killed male occupant, took woman captive.",
       "Months of training, sex, conditioning, and language learning at the house.",
-      "Body significantly conditioned. Basic common tongue acquired. Dependence deepened."
+      "Body significantly conditioned. Basic common tongue acquired. Dependence deepened.",
+      "Captive's name revealed as Elena. Appearance detailed."
     ]
   },
   "characters": {
-    "captive-woman": {
-      "id": "captive-woman",
-      "name": "Unnamed Woman",
-      "description": "Adult human woman, former occupant of the house. After months of captivity: passive acceptance, automatic physical responses to player, cooks and maintains basic household tasks, teaches common tongue. Residual shame, no active resistance or clear affection.",
-      "memoryFile": "memories/captive-woman.json",
+    "elena": {
+      "id": "elena",
+      "name": "Elena",
+      "description": "Adult human woman, former occupant of the house. Slim build, narrow waist and modest hips, long legs. Dark brown hair, thick and slightly wavy, usually tied back. Fair skin. Full breasts (D-cup) for her frame. After months of captivity: passive acceptance, automatic physical responses to player, cooks and maintains household tasks, teaches common tongue. Residual shame present but dulled. No active resistance or clear affection.",
+      "appearance": {
+        "hair": "dark brown, thick, slightly wavy, past shoulders",
+        "build": "slim, narrow waist, modest hips, long legs",
+        "breasts": "D-cup, full and soft for her frame",
+        "skin": "fair, lightly weathered",
+        "height": "taller than the goblin player"
+      },
+      "memoryFile": "memories/elena.json",
       "currentLocation": "Isolated Frontier House",
       "status": "alive, dependent",
       "relationshipToPlayer": 2,
@@ -130,12 +139,14 @@
   },
   "flags": {
     "playerHasActed": true,
-    "languageLearningActive": true
+    "languageLearningActive": true,
+    "nameKnown": true
   },
   "history": [
     "Turn 0: Campaign start in nest.",
     "Early turns: Left nest, hunted, reached house, killed man, took woman.",
     "Extended period: Training, repeated sexual use, edging, care, language lessons over ~3 months.",
+    "Name learned: Elena. Appearance noted in detail.",
     "Current: Basic common tongue functional. Body conditioned. Relationship of deepened dependence."
   ]
 }

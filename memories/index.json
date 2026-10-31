@@ -1,11 +1,11 @@
 {
   "charactersWithMemories": [
     "player",
-    "captive-woman",
+    "elena",
     "grak-split-ear",
     "snarl",
     "grik"
   ],
-  "lastUpdated": "2026-10-31T02:25:00Z",
-  "notes": "Updated after months at the isolated house. Captive woman memory file created. Original nest NPCs unchanged."
+  "lastUpdated": "2026-10-31T02:31:00Z",
+  "notes": "Captive renamed and detailed as Elena. Memory file updated from captive-woman.json. Original nest NPCs unchanged."
 }
