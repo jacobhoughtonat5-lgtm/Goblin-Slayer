@@ -2,15 +2,15 @@
   "gameInfo": {
     "title": "Goblin Slayer — Persistent Goblin Sandbox",
     "genre": "Dark Fantasy / Goblin Survival RPG",
-    "version": "1.2.0",
-    "currentTurn": 52,
+    "version": "1.2.1",
+    "currentTurn": 55,
     "inGameTime": {
-      "day": 95,
+      "day": 96,
       "timeOfDay": "morning",
       "season": "summer",
       "year": 1
     },
-    "lastUpdated": "2026-10-31T02:51:00Z",
+    "lastUpdated": "2026-10-31T03:08:00Z",
     "branch": "main",
     "winConditions": [],
     "lossConditions": [
@@ -21,91 +21,106 @@
   "player": {
     "id": "player",
     "name": "Unnamed",
-    "description": "An ordinary adult male goblin, heavily conditioned by months of training, now carrying minor evolutionary traits from consuming the raw heart of a wolf variant. Senses sharpened, strength denser, minor physical changes present. Still fundamentally a goblin.",
+    "description": "Wolf-touched, heavily conditioned adult male goblin. Enhanced senses, denser strength, minor physical changes. Occupying isolated house with Elena.",
     "race": "Goblin (wolf-touched)",
     "sex": "Male",
     "age": "Adult",
-    "rank": "Conditioned, wolf-touched goblin",
-    "position": "Occupant of isolated frontier house with Elena",
     "stats": {
       "health": 24,
       "maxHealth": 24,
-      "fatigue": 2,
-      "hunger": 1,
-      "notes": "Body hardened by training. Additional density and recovery from wolf heart. Senses (smell, hearing, low-light vision) enhanced. Faster minor healing."
+      "fatigue": 1,
+      "hunger": 0,
+      "notes": "Wolf-touched traits active. Minor wounds healing cleanly."
     },
     "physiology": {
       "wolfTraits": [
-        "Enhanced sense of smell",
-        "Sharper hearing",
-        "Improved low-light vision and quicker pupil response",
-        "Slightly thicker, coarser hair on forearms and shoulders",
-        "Harder, slightly more curved nails",
+        "Enhanced smell, hearing, low-light vision",
         "Denser muscle and strength",
-        "Accelerated healing of minor wounds"
-      ],
-      "notes": "Traits are subtle. No full transformation. Eyes darker with faster light response. Overall still goblin in size and form."
+        "Thicker coarser hair on forearms/shoulders",
+        "Harder curved nails",
+        "Accelerated minor healing"
+      ]
     },
     "inventory": [
       {
         "id": "crude-club",
         "name": "Crude Club",
-        "description": "Familiar weighted wood club, well-used.",
+        "description": "Left at previous goblin kill site.",
         "type": "weapon",
-        "condition": "worn but serviceable"
+        "condition": "abandoned"
       },
       {
         "id": "bone-knife",
         "name": "Bone Knife",
-        "description": "Crude bone knife, kept serviceable.",
         "type": "weapon",
         "condition": "serviceable"
       },
       {
-        "id": "tattered-loincloth",
-        "name": "Tattered Loincloth",
-        "description": "Original scrap clothing.",
-        "type": "clothing",
-        "condition": "poor"
+        "id": "rusty-hatchet",
+        "name": "Rusty Hatchet",
+        "description": "Taken from goblin camp. Nicked edge, heavy head.",
+        "type": "weapon",
+        "condition": "usable"
+      },
+      {
+        "id": "leather-satchel",
+        "name": "Patched Leather Satchel",
+        "description": "Worn across the chest. Contains flint/tinder, hide rope, and waterskin.",
+        "type": "container",
+        "condition": "patched but sturdy",
+        "contents": ["flint-and-tinder", "hide-rope", "waterskin"]
+      },
+      {
+        "id": "flint-and-tinder",
+        "name": "Flint and Tinder",
+        "type": "tool",
+        "condition": "dry"
+      },
+      {
+        "id": "hide-rope",
+        "name": "Braided Hide Rope",
+        "type": "tool",
+        "condition": "serviceable"
+      },
+      {
+        "id": "waterskin",
+        "name": "Leather Waterskin",
+        "description": "Filled at the split stream.",
+        "type": "container",
+        "condition": "full"
       },
       {
         "id": "wolf-pelt-blanket",
         "name": "Wolf Variant Pelt",
-        "description": "Large, thick dark-gray-and-black pelt from the wolf variant, scraped and pegged to dry. Intended as a heavy blanket. Still curing.",
+        "description": "Drying in the clearing for use as a heavy blanket.",
         "type": "material",
-        "condition": "drying / in progress"
+        "condition": "drying"
+      },
+      {
+        "id": "tattered-loincloth",
+        "name": "Tattered Loincloth",
+        "type": "clothing",
+        "condition": "poor"
       }
     ],
-    "currency": {
-      "coin": 0,
-      "valuables": []
-    },
     "skills": [
       "Basic scavenging",
-      "Crude melee (club and knife)",
-      "Goblin stealth (instinctive, enhanced by senses)",
+      "Melee (knife, hatchet, club)",
+      "Enhanced stealth via wolf-touched senses",
       "Intense physical conditioning",
-      "Basic common tongue (functional short sentences)"
+      "Basic common tongue"
     ],
     "knowledge": [
-      "Layout of original nest",
-      "Isolated house and surrounding woods",
       "Basic common tongue",
-      "Elena's name, routines, and responses",
-      "Wolf variant unnatural traits and effects of consuming its heart"
-    ],
-    "abilities": [
-      "Wolf-touched senses",
-      "Minor accelerated healing"
-    ],
-    "injuries": [
-      "Healing claw furrows on thigh (closing cleanly)"
+      "Elena and the house",
+      "Wolf-touched physiology",
+      "Local goblin hunting parties eliminated"
     ],
     "location": "Isolated Frontier House",
     "relationships": {
       "elena": {
-        "disposition": "deepened dependence / passive acceptance with new caution",
-        "notes": "Months of captivity and intimacy. Automatic responses remain. Noted the physical changes after the heart."
+        "disposition": "deepened dependence / passive acceptance",
+        "notes": "Continues caretaking and intimacy. Aware of recent fights and changes."
       }
     },
     "memoryFile": "memories/player.json"
@@ -113,54 +128,32 @@
   "world": {
     "locations": {
       "Isolated Frontier House": {
-        "id": "isolated-house",
-        "name": "Isolated Frontier House",
-        "description": "Small timber house with thatched roof in a forest clearing. Wolf variant pelt drying outside. Lived-in.",
-        "exits": ["Surrounding Woods", "Clearing"],
-        "npcs": ["elena"],
-        "visited": true,
-        "tags": ["house", "frontier", "occupied"]
+        "description": "Occupied house. Wolf pelt drying outside. Recent large meat stores from goblin camps.",
+        "npcs": ["elena"]
       }
     },
     "activeNpcs": ["elena"],
     "globalFlags": {
-      "campaignStarted": true,
-      "houseOccupied": true,
-      "commonTongueBasic": true,
-      "captiveNamed": true,
-      "wolfTouched": true
+      "wolfTouched": true,
+      "localGoblinsCleared": true
     },
     "eventsLog": [
-      "Killed wolf variant, dragged carcass back.",
-      "Consumed raw heart. Suffered fever. Woke with minor wolf-touched traits.",
-      "Pelt scraped and set to dry for blanket."
+      "Eliminated two goblin hunting parties (4 + 8).",
+      "Acquired satchel, flint, rope, waterskin, hatchet, and meat.",
+      "Returned to Elena. Wounds tended."
     ]
   },
   "characters": {
     "elena": {
       "id": "elena",
       "name": "Elena",
-      "description": "Adult human woman. Slim build, dark brown hair, D-cup breasts. Passive acceptance and automatic responses after months of captivity. Noted player's changes after the heart.",
-      "appearance": {
-        "hair": "dark brown, thick, slightly wavy",
-        "build": "slim, narrow waist, modest hips",
-        "breasts": "D-cup",
-        "skin": "fair"
-      },
+      "description": "Slim adult human woman, dark brown hair, D-cup. Passive dependent state. Handling increased meat stores.",
       "memoryFile": "memories/elena.json",
       "currentLocation": "Isolated Frontier House",
-      "status": "alive, dependent",
-      "relationshipToPlayer": 2,
-      "role": "Captive / household"
+      "status": "alive, dependent"
     }
   },
-  "flags": {
-    "wolfHeartConsumed": true,
-    "peltAcquired": true
-  },
   "history": [
-    "Months at house with Elena. Training, language, dependence.",
-    "Killed goblin hunting party and wolf variant.",
-    "Ate raw wolf heart. Gained subtle wolf-touched traits. Pelt prepared."
+    "Recent: Killed goblin parties near the house. Secured meat and basic gear. Wolf-touched traits stable."
   ]
 }
