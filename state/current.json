@@ -2,49 +2,32 @@
   "gameInfo": {
     "title": "Goblin Slayer — Persistent Goblin Sandbox",
     "genre": "Dark Fantasy / Goblin Survival RPG",
-    "version": "1.3.0",
-    "currentTurn": 60,
+    "version": "1.3.1",
+    "currentTurn": 62,
     "inGameTime": {
-      "day": 100,
-      "timeOfDay": "morning",
+      "day": 101,
+      "timeOfDay": "evening",
       "season": "summer",
       "year": 1
     },
-    "lastUpdated": "2026-10-31T03:23:00Z",
-    "branch": "main",
-    "winConditions": [],
-    "lossConditions": [
-      "Player character death",
-      "Complete loss of the house and Elena without escape"
-    ]
+    "lastUpdated": "2026-10-31T03:30:00Z",
+    "branch": "main"
   },
   "player": {
     "id": "player",
     "name": "Unnamed",
-    "description": "Wolf- and bear-touched adult male goblin. Heavily conditioned, now with layered variant traits: enhanced senses from wolf, greater mass, density, strength, tougher skin and claws from bear. Still goblin in height and basic form.",
+    "description": "Wolf- and bear-touched goblin. Denser, stronger, enhanced senses. Relationship with Elena significantly deepened.",
     "race": "Goblin (wolf- and bear-touched)",
-    "sex": "Male",
-    "age": "Adult",
     "stats": {
       "health": 28,
       "maxHealth": 28,
       "fatigue": 1,
-      "hunger": 1,
-      "notes": "Significantly denser and stronger. Tougher hide. Accelerated healing. Enhanced senses."
+      "hunger": 1
     },
     "physiology": {
-      "wolfTraits": [
-        "Enhanced smell, hearing, low-light vision",
-        "Faster pupil response"
-      ],
-      "bearTraits": [
-        "Greater overall mass and density (broader, heavier frame)",
-        "Significantly increased raw strength",
-        "Tougher, thicker skin",
-        "Darker, thicker, more claw-like nails",
-        "Heavier endurance and pain tolerance"
-      ],
-      "combinedNotes": "Traits compressed into goblin form. No height increase or full transformation. Noticeably thicker and more powerful. Bed creaks under weight. Elena has observed the changes."
+      "wolfTraits": ["Enhanced senses"],
+      "bearTraits": ["Greater mass/density", "Increased strength", "Tougher skin", "Reinforced claws", "Heavier endurance"],
+      "combinedNotes": "Layered traits. Broader, heavier goblin frame."
     },
     "inventory": [
       {
@@ -56,95 +39,52 @@
       {
         "id": "rusty-hatchet",
         "name": "Rusty Hatchet",
+        "description": "Will break during upcoming training week.",
         "type": "weapon",
-        "condition": "usable"
+        "condition": "failing"
       },
       {
         "id": "leather-satchel",
         "name": "Patched Leather Satchel",
-        "description": "Contains flint/tinder, hide rope, waterskin.",
-        "type": "container",
         "contents": ["flint-and-tinder", "hide-rope", "waterskin"]
       },
       {
         "id": "wolf-pelt-blanket",
         "name": "Wolf Variant Pelt Blanket",
-        "description": "Thick dark pelt, dried and usable as blanket.",
         "type": "gear",
         "condition": "finished"
       },
       {
         "id": "bear-pelt-blanket",
         "name": "Bear Variant Pelt Blanket",
-        "description": "Massive, heavy dark brown-black pelt worked into a thick blanket by Elena. Large enough for two. Faint wild scent.",
         "type": "gear",
         "condition": "finished"
-      },
-      {
-        "id": "tattered-loincloth",
-        "name": "Tattered Loincloth",
-        "type": "clothing",
-        "condition": "poor"
       }
     ],
-    "skills": [
-      "Melee (knife, hatchet)",
-      "Enhanced stealth and tracking via senses",
-      "Intense physical conditioning",
-      "Basic common tongue"
-    ],
-    "knowledge": [
-      "Basic common tongue",
-      "Elena and the house",
-      "Wolf- and bear-touched physiology",
-      "Local threats cleared"
-    ],
-    "location": "Isolated Frontier House",
     "relationships": {
       "elena": {
-        "disposition": "deepened dependence / passive acceptance with caution toward changes",
-        "notes": "Continues caretaking. Has treated major wounds and worked both pelts. Noted physical thickening."
+        "disposition": "deeply intertwined dependence and closeness",
+        "notes": "Prolonged intense sex followed by extended aftercare and full-day caretaking markedly deepened the bond. She clings, seeks proximity, speaks more openly. Passive acceptance has shifted toward active mutual reliance. Residual captive dynamic remains but is softer."
       }
     },
+    "location": "Isolated Frontier House",
     "memoryFile": "memories/player.json"
-  },
-  "world": {
-    "locations": {
-      "Isolated Frontier House": {
-        "description": "Occupied. Both wolf and bear pelt blankets finished. Large meat stores from recent hunts.",
-        "npcs": ["elena"]
-      }
-    },
-    "activeNpcs": ["elena"],
-    "globalFlags": {
-      "wolfTouched": true,
-      "bearTouched": true,
-      "localThreatsReduced": true
-    },
-    "eventsLog": [
-      "Killed bear variant after difficult fight.",
-      "Consumed raw bear heart. Intense fever and growing pains.",
-      "Gained bear-touched traits: mass, strength, tougher skin, claws.",
-      "Elena finished bear pelt into heavy blanket."
-    ]
   },
   "characters": {
     "elena": {
       "id": "elena",
       "name": "Elena",
-      "description": "Slim adult human woman with dark brown hair and D-cup breasts. Passive dependent. Has skinned and finished both variant pelts into blankets and tended severe wounds.",
-      "memoryFile": "memories/elena.json",
-      "currentLocation": "Isolated Frontier House",
-      "status": "alive, dependent"
+      "description": "Slim human woman, dark brown hair, D-cup. Relationship significantly deepened. Seeks and accepts close care and intimacy. Legs temporarily weakened after intense session.",
+      "relationshipToPlayer": 4,
+      "status": "alive, deeply dependent and attached",
+      "memoryFile": "memories/elena.json"
     }
   },
   "flags": {
-    "bearHeartConsumed": true,
-    "bothPeltsFinished": true
+    "relationshipDeepened": true
   },
   "history": [
-    "Wolf-touched then bear-touched via raw hearts.",
-    "Major wounds from bear fight healed with Elena's care and accelerated recovery.",
-    "Both pelts now usable blankets."
+    "Intense 3-hour session leading to blackout, followed by prolonged aftercare and full day of caretaking.",
+    "Bond with Elena markedly closer and more mutual."
   ]
 }
