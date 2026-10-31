@@ -1,72 +1,99 @@
 {
   "gameInfo": {
     "title": "Goblin Slayer — Persistent Goblin Sandbox",
-    "version": "1.4.0",
-    "currentTurn": 70,
+    "version": "1.4.1",
+    "currentTurn": 72,
     "inGameTime": {
-      "day": 104,
-      "timeOfDay": "morning",
+      "day": 106,
+      "timeOfDay": "evening",
       "season": "summer",
       "year": 1
     },
-    "lastUpdated": "2026-10-31T05:01:00Z"
+    "lastUpdated": "2026-10-31T05:06:00Z"
   },
   "player": {
     "id": "player",
-    "name": "Unnamed",
-    "description": "Athletic, strong hobgoblin variant. Taller than a human man, long powerful limbs, defined muscular build, no tusks. Retains all wolf-touched senses and bear-touched density, tougher skin, and claw-like nails. Formerly ordinary goblin.",
+    "description": "Athletic hobgoblin variant (wolf- and bear-touched), no tusks. Returned from cleared den with new weapons and supplies.",
     "race": "Hobgoblin variant (wolf- and bear-touched)",
-    "sex": "Male",
-    "age": "Adult",
     "stats": {
       "health": 40,
       "maxHealth": 40,
-      "fatigue": 1,
-      "hunger": 2,
-      "notes": "Hobgoblin-scale athletic frame. Crushing strength, high speed and endurance, enhanced senses, tougher hide, accelerated healing."
-    },
-    "physiology": {
-      "baseForm": "Athletic hobgoblin variant, no tusks, sharper facial features",
-      "wolfTraits": [
-        "Enhanced smell, hearing, low-light vision",
-        "Faster pupil response",
-        "Coarser hair on forearms and shoulders"
-      ],
-      "bearTraits": [
-        "Dense packed muscle and greater mass relative to frame",
-        "Tougher thicker skin",
-        "Darker thicker claw-like nails",
-        "Heavy endurance and pain tolerance"
-      ],
-      "hobgoblinTraits": [
-        "Hobgoblin height and reach (taller than human male)",
-        "Athletic rather than bulky proportions",
-        "Significantly increased base strength and speed"
-      ],
-      "combinedNotes": "All prior traits fully integrated into the new hobgoblin-scale body. No tusks. Face still recognizably derived from original. Elena has not yet seen the change."
+      "fatigue": 2,
+      "hunger": 0
     },
     "inventory": [
-      "Bear-bone knives (pair)",
-      "Sharpened hand axe",
-      "Hunting bow and quiver (12 arrows)",
-      "Leather satchel with flint, rope, waterskin, whetstone",
-      "Wolf and bear pelt blankets (at house)"
+      {
+        "id": "bear-bone-knives",
+        "name": "Pair of Bear-Bone Knives",
+        "type": "weapon",
+        "condition": "sharp"
+      },
+      {
+        "id": "hand-axe",
+        "name": "Sharpened Hand Axe",
+        "type": "weapon",
+        "condition": "sharp"
+      },
+      {
+        "id": "broad-cleaver",
+        "name": "Hobgoblin Broad Cleaver",
+        "description": "Thick-spined cleaver taken from the hobgoblin leader. Sharpened and maintained.",
+        "type": "weapon",
+        "condition": "sharp"
+      },
+      {
+        "id": "human-short-sword",
+        "name": "Human Short Sword",
+        "description": "Well-made trophy short sword. Sharpened and maintained.",
+        "type": "weapon",
+        "condition": "sharp"
+      },
+      {
+        "id": "hunting-bow",
+        "name": "Hunting Bow",
+        "type": "weapon",
+        "condition": "good"
+      },
+      {
+        "id": "quiver-arrows",
+        "name": "Quiver with 12 Arrows",
+        "type": "ammunition",
+        "quantity": 12
+      },
+      {
+        "id": "leather-satchel",
+        "name": "Patched Leather Satchel",
+        "contents": [
+          "flint-and-tinder",
+          "hide-rope",
+          "waterskin",
+          "whetstone",
+          "human coins (copper and silver)",
+          "jewelry and trinkets (rings, silver pendant, glass beads)"
+        ]
+      },
+      {
+        "id": "bagged-food",
+        "name": "Bag of Safe Food",
+        "description": "Substantial dried/smoked meat, nuts, and roots from the den. Given to Elena for the house.",
+        "type": "provisions",
+        "status": "delivered to house"
+      }
     ],
-    "location": "Hobgoblin den, black rocks (temporary)",
+    "location": "Isolated Frontier House",
     "relationships": {
       "elena": {
         "disposition": "deeply intertwined dependence and closeness",
-        "notes": "Unaware of the hobgoblin transformation yet."
+        "notes": "Has now seen the hobgoblin transformation. Received large food stores."
       }
-    },
-    "memoryFile": "memories/player.json"
+    }
   },
   "flags": {
-    "hobgoblinTransformation": true,
-    "denCleared": true
+    "denLootSecured": true,
+    "elenaSeenNewForm": true
   },
   "history": [
-    "Cleared hobgoblin den through night stealth and open combat.",
-    "Ate hobgoblin heart. Transformed into athletic hobgoblin variant retaining wolf and bear traits."
+    "Cleared den, transformed, looted cleaver, short sword, food, coins and trinkets.",
+    "Returned home, gave food to Elena, saved new equipment."
   ]
 }
