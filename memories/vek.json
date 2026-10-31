@@ -1,0 +1,17 @@
+{
+  "characterId": "vek",
+  "characterName": "Vek",
+  "lastUpdated": "2026-11-01T00:25:00Z",
+  "appearance": "Thinner, quicker goblin. Lighter smoother green skin. Prominent scalp scar. Large mobile ears. Bright yellow restless eyes. Younger, clean-shaven. Light hides. Usually has short spear or knife nearby.",
+  "traits": [
+    "Intelligent",
+    "Observant",
+    "Adaptable",
+    "Quick to understand new systems and rules",
+    "Good at scouting and resource counting",
+    "Energetic",
+    "Designated caretaker for holding cells",
+    "Curious rather than cruel"
+  ],
+  "role": "Scout, problem-solver, and sole caretaker (with Azra) of the holding cells. Trusted."
+}
