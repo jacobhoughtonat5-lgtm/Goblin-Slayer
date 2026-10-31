@@ -1,50 +1,27 @@
 {
-  "_comment": "Detailed location data for the Goblin Slayer campaign. Live current location and visited flags also live in state/current.json.",
-  "Nest Main Cavern": {
-    "id": "nest-main-cavern",
-    "name": "Nest Main Cavern",
-    "description": "The central living space of a small goblin nest under a wooded hillside. Damp stone, low ceiling in places, a crude fire pit, scavenged furs and bones, and the constant smell of unwashed goblin bodies and old meat. Dim light filters from the entrance tunnel.",
-    "exits": {
-      "Nest Entrance Tunnel": "up the sloping passage",
-      "Side Sleeping Tunnels": "deeper into the hill",
-      "Storage Nook": "a side alcove",
-      "Bolt-Hole Passage": "a narrow rear tunnel"
+  "isolated-frontier-house": {
+    "id": "isolated-frontier-house",
+    "name": "Isolated Frontier House",
+    "description": "Single-story timber dwelling with gray, patchy thatched roof in a forest clearing. Heavy timber door with simple brace. Two small windows with bar-able shutters. Packed-earth floor, stained from long occupation.",
+    "interior": {
+      "mainRoom": "Central hearth, rough-hewn table with two stools, wide bed covered by heavy bear-variant pelt blanket (wolf-variant pelt folded at foot). Rafters hold hanging herbs and roots. Warm, smells of woodsmoke, dried meat, and pelts.",
+      "storageRoom": "Adjoining cooler space with shelves of dwindling jars, spare linen, tools, and preserved food. Narrow cot rarely used."
     },
-    "tags": ["nest", "home", "interior", "goblin"],
-    "notableFeatures": ["crude fire pit", "leader's sitting rock", "scavenged gear pile"]
-  },
-  "Nest Entrance Tunnel": {
-    "id": "nest-entrance",
-    "name": "Nest Entrance Tunnel",
-    "description": "A sloping, root-choked passage that leads from the main cavern up to a brush-hidden opening on the hillside. Defensible but not fortified.",
-    "exits": {
-      "Nest Main Cavern": "down into the nest",
-      "Wooded Hillside": "out into the forest"
+    "exterior": {
+      "clearing": "Trodden flat from training. Cold ash pile from burned body at far edge. Forest presses close on all sides.",
+      "notes": "Isolated. No other structures. Defensible only by remoteness."
     },
-    "tags": ["nest", "exit", "tunnel"],
-    "notableFeatures": ["root curtain", "narrow choke point"]
-  },
-  "Wooded Hillside": {
-    "id": "wooded-hillside",
-    "name": "Wooded Hillside",
-    "description": "Dense mixed forest covering a low ridge. The nest entrance is well-concealed among roots and undergrowth. Animal trails, the occasional human track, and the distant sound of a stream.",
-    "exits": {
-      "Nest Entrance Tunnel": "into the hidden cave mouth",
-      "Deeper Forest": "further into the trees",
-      "Ridge Lookout": "up the slope",
-      "Stream Path": "down toward the water"
-    },
-    "tags": ["wilderness", "forest", "frontier"],
-    "notableFeatures": ["concealed nest entrance", "animal trails"]
-  },
-  "Ridge Lookout": {
-    "id": "ridge-lookout",
-    "name": "Ridge Lookout",
-    "description": "A rocky outcrop above the nest that offers a partial view of the surrounding woods and a distant smoke trail that might be a farmstead or small settlement.",
-    "exits": {
-      "Wooded Hillside": "back down the slope"
-    },
-    "tags": ["wilderness", "vantage", "forest"],
-    "notableFeatures": ["partial view of distant smoke", "rocky cover"]
+    "currentContents": [
+      "Sharpened hand axe",
+      "Hunting bow and quiver (12 arrows)",
+      "Bear-bone knife and original bone knife",
+      "Leather satchel (flint, rope, waterskin, whetstone)",
+      "Wolf and bear pelt blankets",
+      "Finite meat stores (bear, deer, rabbit)"
+    ],
+    "occupants": ["player (wolf- and bear-touched goblin)", "Elena (slim human woman, deeply dependent)"],
+    "tags": ["house", "frontier", "occupied", "lived-in"],
+    "visited": true,
+    "lastUpdated": "2026-10-31T04:08:00Z"
   }
 }

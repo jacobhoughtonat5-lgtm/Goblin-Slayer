@@ -1,113 +1,30 @@
 {
   "gameInfo": {
     "title": "Goblin Slayer — Persistent Goblin Sandbox",
-    "genre": "Dark Fantasy / Goblin Survival RPG",
-    "version": "1.3.2",
-    "currentTurn": 65,
+    "version": "1.3.3",
+    "currentTurn": 66,
     "inGameTime": {
       "day": 102,
       "timeOfDay": "afternoon",
       "season": "summer",
       "year": 1
     },
-    "lastUpdated": "2026-10-31T04:03:00Z",
-    "branch": "main"
+    "lastUpdated": "2026-10-31T04:08:00Z"
   },
   "player": {
-    "id": "player",
-    "name": "Unnamed",
-    "description": "Wolf- and bear-touched goblin with enhanced senses, denser strength, and tougher hide. Relationship with Elena deeply intertwined.",
-    "race": "Goblin (wolf- and bear-touched)",
-    "stats": {
-      "health": 28,
-      "maxHealth": 28,
-      "fatigue": 1,
-      "hunger": 1
-    },
-    "inventory": [
-      {
-        "id": "bear-bone-knife",
-        "name": "Bear-Bone Knife",
-        "description": "Sturdy knife shaped from bear variant bone.",
-        "type": "weapon",
-        "condition": "sharp"
-      },
-      {
-        "id": "bone-knife",
-        "name": "Original Bone Knife",
-        "type": "weapon",
-        "condition": "serviceable"
-      },
-      {
-        "id": "hand-axe",
-        "name": "Hand Axe",
-        "description": "Taken from abandoned watchtower. Freshly sharpened with whetstone.",
-        "type": "weapon",
-        "condition": "sharp"
-      },
-      {
-        "id": "hunting-bow",
-        "name": "Hunting Bow",
-        "description": "Short, well-used hunting bow taken from a knocked-out human hunter.",
-        "type": "weapon",
-        "condition": "good"
-      },
-      {
-        "id": "quiver-arrows",
-        "name": "Quiver with Arrows",
-        "description": "Quiver containing 12 arrows, taken with the bow.",
-        "type": "ammunition",
-        "condition": "usable",
-        "quantity": 12
-      },
-      {
-        "id": "leather-satchel",
-        "name": "Patched Leather Satchel",
-        "contents": ["flint-and-tinder", "hide-rope", "waterskin", "whetstone"]
-      },
-      {
-        "id": "whetstone",
-        "name": "Whetstone",
-        "type": "tool",
-        "condition": "good"
-      },
-      {
-        "id": "wolf-pelt-blanket",
-        "name": "Wolf Variant Pelt Blanket",
-        "type": "gear",
-        "condition": "finished"
-      },
-      {
-        "id": "bear-pelt-blanket",
-        "name": "Bear Variant Pelt Blanket",
-        "type": "gear",
-        "condition": "finished"
-      }
-    ],
-    "relationships": {
-      "elena": {
-        "disposition": "deeply intertwined dependence and closeness",
-        "notes": "Continues to deepen through daily intimacy and care."
-      }
-    },
     "location": "Isolated Frontier House",
-    "memoryFile": "memories/player.json"
+    "notes": "House fully detailed and saved. Wolf- and bear-touched. Deep relationship with Elena."
   },
-  "characters": {
-    "elena": {
-      "id": "elena",
-      "name": "Elena",
-      "status": "alive, deeply dependent and attached",
-      "currentLocation": "Isolated Frontier House"
-    }
+  "world": {
+    "locations": {
+      "Isolated Frontier House": {
+        "reference": "world/locations.json",
+        "status": "detailed and current"
+      }
+    },
+    "activeNpcs": ["elena"]
   },
   "flags": {
-    "bowAcquired": true,
-    "handAxeSharpened": true
-  },
-  "history": [
-    "Retrieved hand axe and whetstone from abandoned watchtower.",
-    "Knocked out human hunter and took bow, quiver, and arrows.",
-    "Returned home with new ranged weapon."
-  ]
+    "houseDetailed": true
+  }
 }
