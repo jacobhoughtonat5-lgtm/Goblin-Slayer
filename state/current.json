@@ -1,36 +1,23 @@
 {
   "gameInfo": {
-    "version": "1.5.3",
-    "lastUpdated": "2026-10-31T06:05:00Z"
+    "version": "1.6.0",
+    "lastUpdated": "2026-11-01T00:46:00Z"
   },
   "player": {
     "name": "Azra",
-    "mainEquipment": [
-      {
-        "id": "human-short-sword",
-        "name": "Human Short Sword",
-        "role": "primary melee"
-      },
-      {
-        "id": "broad-cleaver",
-        "name": "Hobgoblin Broad Cleaver",
-        "role": "heavy melee"
-      },
-      {
-        "id": "silver-dagger",
-        "name": "Silver Dagger",
-        "role": "sidearm / utility"
-      },
-      {
-        "id": "composite-bow",
-        "name": "Repaired Composite Bow",
-        "role": "primary ranged",
-        "ammunition": "18 arrows"
-      }
+    "recentActions": [
+      "Killed multiple bandit groups",
+      "Freed captives from caravan attack and bandit base (two women)",
+      "Delivered two carts of loot (weapons, armor, tools, supplies) to Whiterock storehouse",
+      "Retained coins, jewelry, and stones personally"
     ],
-    "notes": "These four are now Azra's standard carried weapons. Other items (hand axe, bone knives, etc.) remain available as backups."
+    "reputation": "Growing among some humans as a friendly hobgoblin who hates bandits and does not harm innocent women"
+  },
+  "whiterock": {
+    "storehouseStatus": "Significantly stocked with recent bandit loot"
   },
   "flags": {
-    "mainLoadoutSet": true
+    "banditLootSecured": true,
+    "captivesFreedTwice": true
   }
 }
