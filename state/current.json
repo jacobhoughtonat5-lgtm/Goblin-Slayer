@@ -1,60 +1,13 @@
 {
   "gameInfo": {
-    "title": "Goblin Slayer — Persistent Goblin Sandbox",
-    "version": "1.5.0",
-    "currentTurn": 90,
-    "inGameTime": {
-      "day": 136,
-      "timeOfDay": "evening",
-      "season": "summer",
-      "year": 1
-    },
-    "lastUpdated": "2026-10-31T05:41:00Z"
+    "version": "1.5.1",
+    "lastUpdated": "2026-10-31T05:44:00Z"
   },
-  "player": {
-    "id": "player",
-    "name": "Azra",
-    "description": "Azra, athletic hobgoblin variant (wolf- and bear-touched). No tusks. Taller than a human male, long powerful limbs, dense muscle, enhanced senses, tougher skin. Deeply bonded with Elena after months together.",
-    "race": "Hobgoblin variant (wolf- and bear-touched)",
-    "sex": "Male",
-    "stats": {
-      "health": 42,
-      "maxHealth": 42,
-      "fatigue": 0,
-      "hunger": 0,
-      "notes": "Further refined by a month of daily training. Name now Azra."
-    },
-    "physiology": {
-      "baseForm": "Athletic hobgoblin variant, no tusks",
-      "wolfTraits": ["Enhanced senses", "coarser hair on forearms/shoulders"],
-      "bearTraits": ["Dense muscle", "tougher skin", "claw-like nails", "high endurance"],
-      "hobgoblinTraits": ["Hobgoblin height/reach", "athletic build"],
-      "genitalia": {
-        "penis": "11 inches erect, thick, heavy, broad head",
-        "balls": "Large and heavy"
-      }
-    },
-    "location": "Isolated Frontier House",
-    "relationships": {
-      "elena": {
-        "disposition": "deeply intertwined love-adjacent dependence and closeness",
-        "notes": "Month of daily life, training, hunting, and intimacy has further solidified the bond. She knows him as Azra."
-      }
-    },
-    "memoryFile": "memories/player.json"
-  },
-  "characters": {
-    "elena": {
-      "name": "Elena",
-      "status": "alive, deeply attached to Azra",
-      "notes": "Knows his name as Azra. Continues shared life in the house."
-    }
+  "world": {
+    "loreReference": "world/lore.json",
+    "goblins": "All-male species. No females."
   },
   "flags": {
-    "playerNamed": true,
-    "name": "Azra"
-  },
-  "history": [
-    "Player name set to Azra after a month of settled life with Elena."
-  ]
+    "loreUpdatedNoFemaleGoblins": true
+  }
 }

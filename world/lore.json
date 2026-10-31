@@ -1,0 +1,12 @@
+{
+  "goblinBiology": {
+    "sex": "All goblins are male. No female goblins exist in this world.",
+    "reproduction": "Goblins reproduce by breeding with females of other races (primarily humans, elves, etc.). Offspring are always goblins.",
+    "notes": "Consistent with Goblin Slayer canon. Any prior references to female goblins are retconned. All goblins encountered are male.",
+    "lastUpdated": "2026-10-31T05:44:00Z"
+  },
+  "generalRules": {
+    "adultContent": "All sexual and breeding content involves adults only (18+).",
+    "playerSpecies": "Azra began as an ordinary male goblin and is now an athletic hobgoblin variant."
+  }
+}
