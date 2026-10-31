@@ -1,11 +1,11 @@
 {
   "characterName": "Azra",
-  "lastUpdated": "2026-11-01T00:46:00Z",
+  "lastUpdated": "2026-11-01T01:02:00Z",
   "newMemories": [
     {
-      "id": "mem-bandit-rescues",
-      "summary": "Intervened in a caravan attack, killed bandits, freed travelers. Later cleared a 10-man bandit base, freed two women, introduced self as friendly hobgoblin. Both groups left alive and unbound.",
-      "tags": ["bandits", "rescue", "reputation"]
+      "id": "mem-ruthless-den-rescue",
+      "summary": "Located and cleared a ruthless goblin den (15+ goblins and 2 hobgoblins) using stealth and bow. Freed three adult human women and two older youths. Provided supplies and valuables, then escorted them to the marsh road for safety. No captives taken.",
+      "tags": ["rescue", "goblin-den", "reputation", "freed-captives"]
     }
   ]
 }

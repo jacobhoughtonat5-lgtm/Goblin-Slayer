@@ -1,23 +1,14 @@
 {
   "gameInfo": {
-    "version": "1.6.0",
-    "lastUpdated": "2026-11-01T00:46:00Z"
+    "version": "1.6.1",
+    "lastUpdated": "2026-11-01T01:02:00Z"
+  },
+  "flags": {
+    "ruthlessDenCleared": true,
+    "captivesEscortedToSafety": true
   },
   "player": {
     "name": "Azra",
-    "recentActions": [
-      "Killed multiple bandit groups",
-      "Freed captives from caravan attack and bandit base (two women)",
-      "Delivered two carts of loot (weapons, armor, tools, supplies) to Whiterock storehouse",
-      "Retained coins, jewelry, and stones personally"
-    ],
-    "reputation": "Growing among some humans as a friendly hobgoblin who hates bandits and does not harm innocent women"
-  },
-  "whiterock": {
-    "storehouseStatus": "Significantly stocked with recent bandit loot"
-  },
-  "flags": {
-    "banditLootSecured": true,
-    "captivesFreedTwice": true
+    "recentActions": "Cleared ruthless nest and safely freed all captives."
   }
 }
