@@ -1,77 +1,36 @@
 {
   "gameInfo": {
-    "version": "1.5.2",
-    "lastUpdated": "2026-10-31T05:54:00Z"
+    "version": "1.5.3",
+    "lastUpdated": "2026-10-31T06:05:00Z"
   },
   "player": {
     "name": "Azra",
-    "inventory": [
+    "mainEquipment": [
       {
-        "id": "composite-bow",
-        "name": "Repaired Composite Bow",
-        "description": "Stronger composite bow restrung with new waxed bowstring. Now primary ranged weapon.",
-        "type": "weapon",
-        "condition": "good"
-      },
-      {
-        "id": "quiver-arrows",
-        "name": "Quiver with Arrows",
-        "quantity": 18,
-        "notes": "12 original + 6 salvageable"
-      },
-      {
-        "id": "silver-dagger",
-        "name": "Silver Dagger",
-        "description": "Finely made, black-wrapped hilt, etched warding mark, sharp.",
-        "type": "weapon",
-        "condition": "excellent"
+        "id": "human-short-sword",
+        "name": "Human Short Sword",
+        "role": "primary melee"
       },
       {
         "id": "broad-cleaver",
         "name": "Hobgoblin Broad Cleaver",
-        "condition": "sharp"
+        "role": "heavy melee"
       },
       {
-        "id": "human-short-sword",
-        "name": "Human Short Sword",
-        "condition": "sharp"
+        "id": "silver-dagger",
+        "name": "Silver Dagger",
+        "role": "sidearm / utility"
       },
       {
-        "id": "hand-axe",
-        "name": "Hand Axe",
-        "condition": "sharp"
-      },
-      {
-        "id": "bear-bone-knives",
-        "name": "Pair of Bear-Bone Knives",
-        "condition": "sharp"
-      },
-      {
-        "id": "leather-satchel",
-        "contents": [
-          "flint-and-tinder",
-          "waterskin",
-          "whetstone",
-          "coin pouch (silver and gold)",
-          "cut ruby",
-          "two sealed vials",
-          "silk rope",
-          "caltrops",
-          "antitoxin",
-          "local frontier map"
-        ]
-      },
-      {
-        "id": "additional-gear",
-        "name": "Cave Salvage",
-        "description": "Steel spearheads, dented helm, steel bracer, long knife, good rope."
+        "id": "composite-bow",
+        "name": "Repaired Composite Bow",
+        "role": "primary ranged",
+        "ammunition": "18 arrows"
       }
     ],
-    "location": "Returning to Isolated Frontier House",
-    "notes": "Scaled monster killed, cave looted, body to be burned."
+    "notes": "These four are now Azra's standard carried weapons. Other items (hand axe, bone knives, etc.) remain available as backups."
   },
   "flags": {
-    "scaledMonsterKilled": true,
-    "caveLooted": true
+    "mainLoadoutSet": true
   }
 }
