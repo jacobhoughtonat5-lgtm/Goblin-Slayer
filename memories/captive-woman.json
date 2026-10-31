@@ -1,0 +1,42 @@
+{
+  "characterId": "captive-woman",
+  "characterName": "Unnamed Woman",
+  "lastUpdated": "2026-10-31T02:25:00Z",
+  "totalMemories": 4,
+  "memories": [
+    {
+      "id": "cw-001",
+      "type": "trauma",
+      "importance": "high",
+      "summary": "House invaded at night. Male partner killed and burned. Taken captive.",
+      "tags": ["capture", "loss"]
+    },
+    {
+      "id": "cw-conditioning",
+      "type": "ongoing",
+      "importance": "high",
+      "summary": "Months of restraint, sexual use, edging, care, and isolation. Resistance hollowed into passive acceptance. Automatic arousal responses to the goblin.",
+      "tags": ["dependence", "conditioning"]
+    },
+    {
+      "id": "cw-language",
+      "type": "interaction",
+      "importance": "medium",
+      "summary": "Teaching basic common tongue. Conversations remain simple and practical.",
+      "tags": ["teaching", "language"]
+    },
+    {
+      "id": "cw-current",
+      "type": "status",
+      "importance": "medium",
+      "summary": "Cooks, maintains house tasks, follows on walks, accepts sexual contact without active refusal. Residual shame present but dulled. No escape attempts.",
+      "tags": ["daily", "acceptance"]
+    }
+  ],
+  "memoryIndex": {
+    "byTag": {
+      "dependence": ["cw-conditioning"],
+      "acceptance": ["cw-current"]
+    }
+  }
+}

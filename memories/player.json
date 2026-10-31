@@ -1,38 +1,50 @@
 {
   "characterId": "player",
   "characterName": "Unnamed",
-  "lastUpdated": "2026-10-28T09:25:00Z",
-  "totalMemories": 1,
+  "lastUpdated": "2026-10-31T02:25:00Z",
+  "totalMemories": 5,
   "memories": [
     {
       "id": "mem-001",
       "type": "background",
       "importance": "high",
-      "timestamp": "Day 1, late afternoon",
-      "summary": "I am an ordinary adult male goblin in a small nest under the wooded hillside. Grak the Split-Ear is the leader. I have a crude club and little else. The nest is quiet but food is not plentiful.",
-      "details": "No special destiny. No extraordinary strength or magic. Just another goblin trying to survive among stronger, meaner ones.",
-      "people": ["grak-split-ear", "snarl", "grik"],
-      "location": "Nest Main Cavern",
-      "tags": ["origin", "nest", "survival"]
+      "summary": "Started as ordinary goblin in small nest under Grak.",
+      "tags": ["origin"]
+    },
+    {
+      "id": "mem-house",
+      "type": "event",
+      "importance": "high",
+      "summary": "Reached isolated house, killed the man, took the woman captive. Months spent there training and using her.",
+      "tags": ["house", "captive"]
+    },
+    {
+      "id": "mem-training",
+      "type": "progress",
+      "importance": "high",
+      "summary": "Daily intense conditioning has made body significantly stronger, faster, and more enduring for a goblin.",
+      "tags": ["body", "training"]
+    },
+    {
+      "id": "mem-language",
+      "type": "progress",
+      "importance": "medium",
+      "summary": "Learned basic common tongue from the woman over weeks of lessons. Can manage short functional sentences.",
+      "tags": ["language", "common-tongue"]
+    },
+    {
+      "id": "mem-relationship",
+      "type": "relationship",
+      "importance": "high",
+      "summary": "Dependence with the captive woman has deepened through care, sex, and routine. She shows passive acceptance and automatic responses.",
+      "tags": ["captive-woman", "dependence"]
     }
   ],
   "memoryIndex": {
-    "byPerson": {
-      "grak-split-ear": ["mem-001"],
-      "snarl": ["mem-001"],
-      "grik": ["mem-001"]
-    },
     "byTag": {
-      "origin": ["mem-001"],
-      "nest": ["mem-001"],
-      "survival": ["mem-001"]
-    },
-    "byType": {
-      "background": ["mem-001"]
-    },
-    "byLocation": {
-      "Nest Main Cavern": ["mem-001"]
-    },
-    "highImportance": ["mem-001"]
+      "training": ["mem-training"],
+      "language": ["mem-language"],
+      "dependence": ["mem-relationship"]
+    }
   }
 }

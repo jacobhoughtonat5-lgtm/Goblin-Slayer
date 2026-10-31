@@ -1,10 +1,11 @@
 {
   "charactersWithMemories": [
     "player",
+    "captive-woman",
     "grak-split-ear",
     "snarl",
     "grik"
   ],
-  "lastUpdated": "2026-10-28T09:25:00Z",
-  "notes": "Campaign initialized. Core nest figures given memory files. New NPCs receive files on first meaningful interaction."
+  "lastUpdated": "2026-10-31T02:25:00Z",
+  "notes": "Updated after months at the isolated house. Captive woman memory file created. Original nest NPCs unchanged."
 }
