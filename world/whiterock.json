@@ -1,21 +1,17 @@
 {
   "name": "Whiterock",
   "upperResidence": {
-    "location": "Highest shelf, above main caves",
-    "plateau": "Natural flat area approximately 70m x 55m outside the cave",
-    "cave": "Large, dry, high-ceilinged cave, cleared, cleaned, and enclosed",
+    "location": "Highest shelf plateau (approx 70m x 55m)",
+    "status": "Occupied private home",
+    "occupants": ["Azra", "Elena"],
     "features": [
-      "Timber and hide enclosure/wall across the cave mouth with a proper door",
-      "Interior cleared of debris and leveled",
-      "Sleeping area prepared with hides and ledges",
-      "Private fire pit",
-      "Small water seep at the back",
-      "Storage alcoves",
-      "Commanding views and defensible drop-off"
+      "Enclosed cave with barrable timber-and-hide door",
+      "Large bed now covered with wolf-variant and bear-variant pelt blankets",
+      "Elena's cooking pots, herbs, salves, linen, keepsakes, and gardening tools moved in",
+      "Private fire pit and water seep",
+      "Storage alcoves in use"
     ],
-    "purpose": "Private home for Azra and several women. Separate from main den population.",
-    "status": "Completed after one week of work. Ready for occupation.",
-    "lastUpdated": "2026-10-31T07:18:00Z"
+    "notes": "Elena has fully relocated from the isolated frontier house. The old house is emptied of useful goods. Upper residence is now their shared home."
   },
-  "notes": "Main den facilities unchanged. Upper residence is private and elevated."
+  "lastUpdated": "2026-10-31T07:28:00Z"
 }
