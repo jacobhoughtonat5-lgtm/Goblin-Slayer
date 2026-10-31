@@ -1,0 +1,37 @@
+{
+  "name": "Whiterock",
+  "type": "Den / Settlement",
+  "location": "Limestone shelves, half-day east of former stronger den",
+  "foundedBy": "Azra",
+  "status": "Functional and expanding",
+  "lastUpdated": "2026-10-31T07:11:00Z",
+  "facilities": {
+    "defenses": [
+      "Head-high timber wall with walkway",
+      "Reinforced gate with two watch posts",
+      "Clear bowshot kill-zone in front"
+    ],
+    "caves": [
+      "Main cave: sleeping ledges, stone-lined fire pit, storage alcoves with shelves, barrable timber door",
+      "Secondary cave: cleared, doored, suitable for private quarters or additional storage"
+    ],
+    "water": [
+      "Natural spring and pool",
+      "Stone-lined trough channeled for animals"
+    ],
+    "agricultureAndAnimals": [
+      "Expanded garden plots with first seeds planted",
+      "Two pens (one finished, one started) ready for goats/pigs",
+      "Smokehouse of timber and hide"
+    ],
+    "other": [
+      "Basic tool storage",
+      "Meat stores from recent hunts"
+    ]
+  },
+  "population": {
+    "current": ["Azra", "Rusk", "Vek", "Tor", "Sip"],
+    "rules": "Women protected. Breeding controlled by Azra. Obedience in exchange for safety, food, water, work, and trust."
+  },
+  "notes": "Built in approximately two weeks of intensive labor. Ready for further expansion and additional residents who accept the rules. Elena has not yet visited."
+}
