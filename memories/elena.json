@@ -1,43 +1,15 @@
 {
   "characterId": "elena",
   "characterName": "Elena",
-  "lastUpdated": "2026-10-31T05:36:00Z",
-  "totalMemories": 8,
+  "lastUpdated": "2026-10-31T05:41:00Z",
+  "notes": "Knows the player as Azra. Memories of evolution and caretaking updated with the name.",
   "memories": [
     {
-      "id": "elena-evolution-shock",
-      "type": "event",
-      "importance": "high",
-      "summary": "Player returned from the north transformed into an athletic hobgoblin variant: much taller, broader, sharper-faced, no tusks, denser and stronger. Initial shock and fear of the size, followed by recognition that it was still him because of eyes, scent, and behavior. He brought large amounts of food.",
-      "tags": ["evolution", "shock", "return"]
-    },
-    {
-      "id": "elena-intimacy-new-body",
-      "type": "intimacy",
-      "importance": "high",
-      "summary": "First full experience with the new body. Overwhelmed by the size, depth, weight, and endurance during a six-hour session. Legs unusable afterward. Mixed fear and intense physical pleasure. Explicitly confirmed she enjoyed it greatly despite the soreness.",
-      "tags": ["sex", "new-body", "overwhelm"]
-    },
-    {
-      "id": "elena-aftercare-days",
+      "id": "elena-name",
       "type": "relationship",
-      "importance": "high",
-      "summary": "Four days of continuous caretaking while she recovered. He carried her, fed her, massaged her, stayed close, and did not leave. This markedly deepened trust and attachment. She began reaching for him habitually and stated she likes living with him and does not want him to stop coming back.",
-      "tags": ["aftercare", "trust", "dependence", "closeness"]
-    },
-    {
-      "id": "elena-current-feelings",
-      "type": "status",
       "importance": "medium",
-      "summary": "Adjusting to the new size in the small house. Still carries residual memory of the original capture, but daily life, protection, intimacy, and consistent return have made the bond feel mutual and preferable to any alternative. She startles less at his frame and actively seeks proximity.",
-      "tags": ["adjustment", "feelings", "daily"]
+      "summary": "Learned his name is Azra. Uses it naturally now.",
+      "tags": ["name", "azra"]
     }
-  ],
-  "memoryIndex": {
-    "byTag": {
-      "evolution": ["elena-evolution-shock"],
-      "aftercare": ["elena-aftercare-days"],
-      "closeness": ["elena-aftercare-days", "elena-current-feelings"]
-    }
-  }
+  ]
 }
