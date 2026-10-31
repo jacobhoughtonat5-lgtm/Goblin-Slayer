@@ -2,21 +2,21 @@
   "gameInfo": {
     "title": "Goblin Slayer — Persistent Goblin Sandbox",
     "genre": "Dark Fantasy / Goblin Survival RPG",
-    "version": "1.3.1",
-    "currentTurn": 62,
+    "version": "1.3.2",
+    "currentTurn": 65,
     "inGameTime": {
-      "day": 101,
-      "timeOfDay": "evening",
+      "day": 102,
+      "timeOfDay": "afternoon",
       "season": "summer",
       "year": 1
     },
-    "lastUpdated": "2026-10-31T03:30:00Z",
+    "lastUpdated": "2026-10-31T04:03:00Z",
     "branch": "main"
   },
   "player": {
     "id": "player",
     "name": "Unnamed",
-    "description": "Wolf- and bear-touched goblin. Denser, stronger, enhanced senses. Relationship with Elena significantly deepened.",
+    "description": "Wolf- and bear-touched goblin with enhanced senses, denser strength, and tougher hide. Relationship with Elena deeply intertwined.",
     "race": "Goblin (wolf- and bear-touched)",
     "stats": {
       "health": 28,
@@ -24,29 +24,52 @@
       "fatigue": 1,
       "hunger": 1
     },
-    "physiology": {
-      "wolfTraits": ["Enhanced senses"],
-      "bearTraits": ["Greater mass/density", "Increased strength", "Tougher skin", "Reinforced claws", "Heavier endurance"],
-      "combinedNotes": "Layered traits. Broader, heavier goblin frame."
-    },
     "inventory": [
       {
+        "id": "bear-bone-knife",
+        "name": "Bear-Bone Knife",
+        "description": "Sturdy knife shaped from bear variant bone.",
+        "type": "weapon",
+        "condition": "sharp"
+      },
+      {
         "id": "bone-knife",
-        "name": "Bone Knife",
+        "name": "Original Bone Knife",
         "type": "weapon",
         "condition": "serviceable"
       },
       {
-        "id": "rusty-hatchet",
-        "name": "Rusty Hatchet",
-        "description": "Will break during upcoming training week.",
+        "id": "hand-axe",
+        "name": "Hand Axe",
+        "description": "Taken from abandoned watchtower. Freshly sharpened with whetstone.",
         "type": "weapon",
-        "condition": "failing"
+        "condition": "sharp"
+      },
+      {
+        "id": "hunting-bow",
+        "name": "Hunting Bow",
+        "description": "Short, well-used hunting bow taken from a knocked-out human hunter.",
+        "type": "weapon",
+        "condition": "good"
+      },
+      {
+        "id": "quiver-arrows",
+        "name": "Quiver with Arrows",
+        "description": "Quiver containing 12 arrows, taken with the bow.",
+        "type": "ammunition",
+        "condition": "usable",
+        "quantity": 12
       },
       {
         "id": "leather-satchel",
         "name": "Patched Leather Satchel",
-        "contents": ["flint-and-tinder", "hide-rope", "waterskin"]
+        "contents": ["flint-and-tinder", "hide-rope", "waterskin", "whetstone"]
+      },
+      {
+        "id": "whetstone",
+        "name": "Whetstone",
+        "type": "tool",
+        "condition": "good"
       },
       {
         "id": "wolf-pelt-blanket",
@@ -64,7 +87,7 @@
     "relationships": {
       "elena": {
         "disposition": "deeply intertwined dependence and closeness",
-        "notes": "Prolonged intense sex followed by extended aftercare and full-day caretaking markedly deepened the bond. She clings, seeks proximity, speaks more openly. Passive acceptance has shifted toward active mutual reliance. Residual captive dynamic remains but is softer."
+        "notes": "Continues to deepen through daily intimacy and care."
       }
     },
     "location": "Isolated Frontier House",
@@ -74,17 +97,17 @@
     "elena": {
       "id": "elena",
       "name": "Elena",
-      "description": "Slim human woman, dark brown hair, D-cup. Relationship significantly deepened. Seeks and accepts close care and intimacy. Legs temporarily weakened after intense session.",
-      "relationshipToPlayer": 4,
       "status": "alive, deeply dependent and attached",
-      "memoryFile": "memories/elena.json"
+      "currentLocation": "Isolated Frontier House"
     }
   },
   "flags": {
-    "relationshipDeepened": true
+    "bowAcquired": true,
+    "handAxeSharpened": true
   },
   "history": [
-    "Intense 3-hour session leading to blackout, followed by prolonged aftercare and full day of caretaking.",
-    "Bond with Elena markedly closer and more mutual."
+    "Retrieved hand axe and whetstone from abandoned watchtower.",
+    "Knocked out human hunter and took bow, quiver, and arrows.",
+    "Returned home with new ranged weapon."
   ]
 }
