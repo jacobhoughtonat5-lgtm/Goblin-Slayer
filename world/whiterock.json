@@ -1,12 +1,18 @@
 {
   "name": "Whiterock",
-  "newFacilities": {
-    "storehouse": "Raised, dry timber storehouse for meat and grain",
-    "secondSmokehouse": "Additional smokehouse for increased capacity",
-    "latrine": "Latrine trench located away from the spring",
-    "animalShelter": "Covered shelter attached to the pens for goats/pigs",
-    "completed": "Two weeks of work by Azra, Rusk, Vek, Tor, and Sip",
-    "lastUpdated": "2026-10-31T07:36:00Z"
+  "holdingCells": {
+    "number": 5,
+    "location": "Lower den, separate from main living caves and upper residence",
+    "features": [
+      "Individual cells",
+      "Very secure: heavy timber doors with bars, stone-reinforced walls, minimal windows",
+      "Basic bedding, water access, and waste provision in each",
+      "Single controlled entrance"
+    ],
+    "access": "Only Azra and one designated goblin caretaker",
+    "purpose": "Holding adult women (criminals/bandits) for controlled breeding under Azra's rules",
+    "completed": "Two days of work",
+    "lastUpdated": "2026-11-01T00:22:00Z"
   },
-  "notes": "Core list from Rusk and Vek partially completed. Weapons, tools, and meeting ground still pending. Upper residence unchanged."
+  "notes": "Elena informed and accepts provided rules of protection and adult-only are followed."
 }
