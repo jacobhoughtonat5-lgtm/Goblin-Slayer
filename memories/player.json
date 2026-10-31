@@ -1,50 +1,35 @@
 {
   "characterId": "player",
   "characterName": "Unnamed",
-  "lastUpdated": "2026-10-31T02:25:00Z",
-  "totalMemories": 5,
+  "lastUpdated": "2026-10-31T02:51:00Z",
+  "totalMemories": 7,
   "memories": [
     {
-      "id": "mem-001",
-      "type": "background",
-      "importance": "high",
-      "summary": "Started as ordinary goblin in small nest under Grak.",
-      "tags": ["origin"]
-    },
-    {
-      "id": "mem-house",
+      "id": "mem-wolf",
       "type": "event",
       "importance": "high",
-      "summary": "Reached isolated house, killed the man, took the woman captive. Months spent there training and using her.",
-      "tags": ["house", "captive"]
+      "summary": "Hunted and killed a large wolf variant. Dragged it back. Butchered it with Elena. Ate its heart raw.",
+      "tags": ["wolf", "hunt"]
     },
     {
-      "id": "mem-training",
+      "id": "mem-evolution",
       "type": "progress",
       "importance": "high",
-      "summary": "Daily intense conditioning has made body significantly stronger, faster, and more enduring for a goblin.",
-      "tags": ["body", "training"]
+      "summary": "Raw heart caused intense fever. Woke with enhanced senses (smell, hearing, vision), denser strength, thicker hair on arms/shoulders, harder nails, faster minor healing. Still a goblin.",
+      "tags": ["physiology", "wolf-touched"]
     },
     {
-      "id": "mem-language",
-      "type": "progress",
+      "id": "mem-pelt",
+      "type": "item",
       "importance": "medium",
-      "summary": "Learned basic common tongue from the woman over weeks of lessons. Can manage short functional sentences.",
-      "tags": ["language", "common-tongue"]
-    },
-    {
-      "id": "mem-relationship",
-      "type": "relationship",
-      "importance": "high",
-      "summary": "Dependence with the captive woman has deepened through care, sex, and routine. She shows passive acceptance and automatic responses.",
-      "tags": ["captive-woman", "dependence"]
+      "summary": "Wolf variant pelt scraped and set to dry in the clearing for use as a heavy blanket.",
+      "tags": ["pelt", "crafting"]
     }
   ],
   "memoryIndex": {
     "byTag": {
-      "training": ["mem-training"],
-      "language": ["mem-language"],
-      "dependence": ["mem-relationship"]
+      "wolf-touched": ["mem-evolution"],
+      "pelt": ["mem-pelt"]
     }
   }
 }
