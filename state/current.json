@@ -1,32 +1,21 @@
 {
   "gameInfo": {
-    "version": "1.6.4",
-    "lastUpdated": "2026-11-08T02:29:00Z"
+    "version": "1.6.5",
+    "lastUpdated": "2026-11-08T02:36:00Z"
   },
   "player": {
     "name": "Azra",
-    "equipment": {
-      "primaryBow": "Masterwork composite bow (replaced previous)"
-    },
-    "personalStorageUpperResidence": [
-      "Iron-bound chest of coin",
-      "Ornate silver drinking horn",
-      "Collection of cut gemstones",
-      "Preserved spellbook (first- and second-circle spells)"
-    ]
+    "physiology": {
+      "baseForm": "Athletic hobgoblin variant, no tusks, wolf- and bear-touched",
+      "traits": {
+        "regeneration": "Further enhanced (troll + ogre). Shallow wounds seal in moments. Deeper wounds knit rapidly. Fire/acid still scar.",
+        "strength": "Increased again from ogre heart. Denser power without loss of speed or athletic build.",
+        "fireAffinity": "Minor. Spark cantrip easier and hotter. Residual from ogre."
+      },
+      "notes": "All previous traits retained and improved."
+    }
   },
-  "whiterockStorehouse": [
-    "Fine steel greatsword",
-    "Dwarven plate pauldrons and vambraces",
-    "Crate of six healing potions",
-    "Mage’s component pouch",
-    "Gold-inlaid dagger",
-    "Bolt of elven silk",
-    "Crate of steel ingots",
-    "Locked iron strongbox"
-  ],
   "flags": {
-    "ogreVariantKilled": true,
-    "ruinLootSecured": true
+    "ogreHeartConsumed": true
   }
 }
