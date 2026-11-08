@@ -1,21 +1,32 @@
 {
   "gameInfo": {
-    "version": "1.6.3",
-    "lastUpdated": "2026-11-08T02:03:00Z"
+    "version": "1.6.4",
+    "lastUpdated": "2026-11-08T02:29:00Z"
   },
   "player": {
     "name": "Azra",
-    "physiology": {
-      "baseForm": "Athletic hobgoblin variant, no tusks, wolf- and bear-touched",
-      "newTrait": {
-        "source": "Variant troll heart",
-        "regeneration": "Enhanced. Shallow cuts seal in minutes. Deeper wounds knit significantly faster than normal. Fire and acid still cause lasting damage and scarring."
-      },
-      "notes": "All previous traits retained. Regeneration is now a notable passive ability."
-    }
+    "equipment": {
+      "primaryBow": "Masterwork composite bow (replaced previous)"
+    },
+    "personalStorageUpperResidence": [
+      "Iron-bound chest of coin",
+      "Ornate silver drinking horn",
+      "Collection of cut gemstones",
+      "Preserved spellbook (first- and second-circle spells)"
+    ]
   },
+  "whiterockStorehouse": [
+    "Fine steel greatsword",
+    "Dwarven plate pauldrons and vambraces",
+    "Crate of six healing potions",
+    "Mage’s component pouch",
+    "Gold-inlaid dagger",
+    "Bolt of elven silk",
+    "Crate of steel ingots",
+    "Locked iron strongbox"
+  ],
   "flags": {
-    "trollHeartConsumed": true,
-    "enhancedRegeneration": true
+    "ogreVariantKilled": true,
+    "ruinLootSecured": true
   }
 }
