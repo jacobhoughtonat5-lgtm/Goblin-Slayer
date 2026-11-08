@@ -1,10 +1,21 @@
 {
   "gameInfo": {
-    "version": "1.6.2",
-    "lastUpdated": "2026-11-08T01:30:00Z"
+    "version": "1.6.3",
+    "lastUpdated": "2026-11-08T02:03:00Z"
+  },
+  "player": {
+    "name": "Azra",
+    "physiology": {
+      "baseForm": "Athletic hobgoblin variant, no tusks, wolf- and bear-touched",
+      "newTrait": {
+        "source": "Variant troll heart",
+        "regeneration": "Enhanced. Shallow cuts seal in minutes. Deeper wounds knit significantly faster than normal. Fire and acid still cause lasting damage and scarring."
+      },
+      "notes": "All previous traits retained. Regeneration is now a notable passive ability."
+    }
   },
   "flags": {
-    "fireTeaCrafted": true
-  },
-  "inventoryNotes": "Multiple sealed jars of Fire Tea stored in upper residence."
+    "trollHeartConsumed": true,
+    "enhancedRegeneration": true
+  }
 }
