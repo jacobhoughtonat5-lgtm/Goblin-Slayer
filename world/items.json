@@ -1,10 +1,11 @@
 {
-  "_comment": "Global or unique items that are not currently in any inventory.",
-  "example-item": {
-    "id": "example-item",
-    "name": "Example Item",
-    "description": "A placeholder. Replace with real items.",
-    "type": "misc",
-    "effects": []
+  "fireTea": {
+    "name": "Fire Tea",
+    "type": "consumable / aphrodisiac",
+    "description": "A dark, sweet drink crafted from redberry vine, moonpetal, and blackroot. Potent but safe. Rapidly increases desire, sensitivity, and stamina. One cup is sufficient. No dangerous side effects when properly dosed.",
+    "crafters": ["Azra", "Elena"],
+    "purpose": "To make adult women brought for breeding more receptive and better able to handle the process.",
+    "storage": "Sealed jars on the shelves in the upper plateau residence",
+    "lastUpdated": "2026-11-08T01:30:00Z"
   }
 }
